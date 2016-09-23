@@ -14,6 +14,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,13 +30,20 @@
 		<a href="index.html#employment" class="scroll">section three</a>
 		<a href="index.html#networks" class="scroll">section four</a>
 	</div>
+
 	<section id="hero" class="flex">
 			<div class="hero-block">
 				<a href="https://blog.jiao.co.nz">
 				<img class="img-circle" src="assets/img/self.png" width="200" height="200" class="mb-7 hero-image"></a>
+				<!--	<p>Typed.js is a <strong>jQuery</strong> plugin.</p> -->
+				<!--	    <p>It <em>types</em> out sentences.</p> -->
+					
 					<h3 class="about-title">KIA ORA,</h3>
-					<p>Hello, I'm Liguo Jiao a.k.a <span1>iceman201</span1>.</p>
-					<p><span3>Software Engineer</span3> | <span2>iOS Developer</span2> | <span3>UI/UX Designer</span3> | <span2>Rock Climber</span2></p>
+					<span3 id="first"></span3>
+					<div id="first-strings">
+					<p> 😊 I'm Liguo Jiao a.k.a <span1>iceman201</span1>. 👾</i></p></div>
+					<p>
+					<span3>Software Engineer</span3> | <span2>iOS Developer</span2> | <span3>UI/UX Designer</span3> | <span2>Rock Climber</span2></p>
 					<p><span>Auckland, New Zealand</span></p>
 			</div>
 		<footer class="arrow-container">
@@ -124,7 +132,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
+
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+ 	<script src="assets/js/typed.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jribbble.js"></script>
     <script src="assets/js/site-ck.js"></script>
@@ -135,5 +147,28 @@
     	})
     	$('#employment .history').html(marked($('script#employment-src').text()))
     </script>
+	<script>
+	    $(function(){
+	        $("#first").typed({
+	            stringsElement: $('#first-strings'),
+	            typeSpeed: 66,
+	            // time before typing starts
+	            startDelay: 500,
+	            // backspacing speed
+	            backSpeed: 0,
+	            // shuffle the strings
+	            shuffle: true,
+	            // time before backspacing
+	            backDelay: 0,
+	            // loop
+	            loop: false,
+	            // false = infinite
+	            loopCount: false,
+	            // show cursor
+	            showCursor: true,
+	             cursorChar: "_"
+	        });
+	    });
+	</script>
   </body>
 </html>
