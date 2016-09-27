@@ -112,7 +112,7 @@ a:active {
    =========================*/
 #hero span
     {
-        color: #141414;
+        color: #E0FFFF;
         font-weight: bold;
     }
 #hero  span1 
@@ -160,10 +160,10 @@ a:active {
   margin-top: -90px; }
 
 #hero {
-  background: #1abc9c; }
+  background: #252525; }
 
 #work {
-  background: #3498db; }
+  background: #462C5F; }
 
 #employment {
   background: rebeccapurple; }
