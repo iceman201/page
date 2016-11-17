@@ -34,17 +34,17 @@
 	<section id="hero" class="flex">
 			<div class="hero-block">
 				<a href="https://blog.jiao.co.nz">
-				<img class="img-circle" src="assets/img/self.png" width="200" height="200" class="mb-7 hero-image"></a>
+				<img class="img-circle" data-scroll-reveal="enter top move 500px over 2s" src="assets/img/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 				<!--	<p>Typed.js is a <strong>jQuery</strong> plugin.</p> -->
 				<!--	    <p>It <em>types</em> out sentences.</p> -->
 
-					<h3 class="about-title">KIA ORA,</h3>
+					<h3 class="about-title" data-scroll-reveal='move 230px'>KIA ORA,</h3>
 					<span3 id="first"></span3>
 					<div id="first-strings">
 					<p> 😊 I'm Liguo Jiao a.k.a <span1>iceman201</span1>. 👾</i></p></div>
 					<p>
-					<span3>Software Engineer</span3> | <span2>iOS Developer</span2> | <span3>UI/UX Designer</span3> | <span2>Rock Climber</span2></p>
-					<p><span>Auckland, New Zealand</span></p>
+					<span3 data-scroll-reveal="wait 0.5s and then ease-in-out 100px">Software Engineer</span3> | <span2 data-scroll-reveal="wait 1.0s and then ease-in-out 100px">iOS Developer</span2> | <span3 data-scroll-reveal="wait 1.5s and then ease-in-out 100px">UI/UX Designer</span3> | <span2 data-scroll-reveal="wait 2.0s and then ease-in-out 100px">Rock Climber</span2></p>
+					<p data-scroll-reveal="enter from top move 230px"><span>Auckland, New Zealand</span></p>
 			</div>
 		<footer class="arrow-container">
 			<a href="index.html#work" class="scroll"><span class="down-arrow"></span></a>
@@ -57,11 +57,11 @@
 			<a href="index.html#hero" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 		<div class="showcase">
-			<h2 class="showcase-title">About myself</h2>
-			<h3 class="showcase-paragraph">KIA ORA,</h3>
-				<p class="showcase-paragraph">My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.</p>
+			<h2 class="showcase-title" data-scroll-reveal="enter top move 500px over 2s">About myself</h2>
+			<h3 class="showcase-paragraph" data-scroll-reveal="enter left after 0.5s">KIA ORA,</h3>
+				<p class="showcase-paragraph" data-scroll-reveal="enter right move 230px over 2.0s">My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.</p>
 
-				<p class="showcase-paragraph">Mobile Application development is so much fun for me I love to design application, I perfer a clean and cute visual design, and also with useful &amp; intenional interaction. I eager learn new things to extend the limit of my knowledge. Therefore, I am running the Swift New Zealand github group to invite more Swift developers(worldwide) to do project together as a way to learn from each other.</p>
+				<p class="showcase-paragraph" data-scroll-reveal="enter left move 230px over 2.0s">Mobile Application development is so much fun for me I love to design application, I perfer a clean and cute visual design, and also with useful &amp; intenional interaction. I eager learn new things to extend the limit of my knowledge. Therefore, I am running the Swift New Zealand github group to invite more Swift developers(worldwide) to do project together as a way to learn from each other.</p>
 		</div>
 		<footer class="arrow-container">
 			<a href="index.html#employment" class="scroll"><span class="down-arrow"></span></a>
@@ -114,9 +114,9 @@
 			<a href="index.html#employment" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 		<div class="hero-block">
-			<h1>Contact me</h1>
+			<h1 data-scroll-reveal="enter top move 500px over 2s">Contact me</h1>
 			<hr></hr>
-			<p>
+			<p data-scroll-reveal="after 0.5s, ease-in 320px and reset over 2s">
 				<a href="https://github.com/iceman201"><i class="github fa fa-github"></i></a>
 
 				<a href="https://nz.linkedin.com/in/liguojiaouc"><i class="linkedin fa fa-linkedin"></i></a>
@@ -138,11 +138,22 @@
 
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/scrollReveal.js"></script>
  	<script src="assets/js/typed.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jribbble.js"></script>
     <script src="assets/js/site-ck.js"></script>
     <script src="assets/js/marked.min.js"></script>
+	<script>
+		var config = {
+            easing: 'ease-in-out',
+            viewportFactor: 0.33,
+            reset: true,
+            init: true
+          };
+      window.scrollReveal = new scrollReveal(config);
+
+ 	 </script>
     <script>
     	marked.setOptions({
     		smartypants: true

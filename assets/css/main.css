@@ -278,6 +278,12 @@ section.flex {
     font-size: 20px;
     font-weight: bold;
 }
+.block-1x {
+  height: 10%;
+}
+.block-blueberry {
+  background: #008597;
+}
 
 
 /* =========================
