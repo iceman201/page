@@ -34,16 +34,14 @@
 	<section id="hero" class="flex">
 			<div class="hero-block">
 				<a href="https://blog.jiao.co.nz">
-				<img class="img-circle" data-scroll-reveal="enter top move 500px over 2s" src="assets/img/self.png" width="200" height="200" class="mb-7 hero-image"></a>
-				<!--	<p>Typed.js is a <strong>jQuery</strong> plugin.</p> -->
-				<!--	    <p>It <em>types</em> out sentences.</p> -->
+				<img class="img-circle" data-scroll-reveal="enter top move 360px over 2s" src="assets/img/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 
 					<h3 class="about-title" data-scroll-reveal='move 230px'>KIA ORA,</h3>
 					<span3 id="first"></span3>
 					<div id="first-strings">
 					<p> 😊 I'm Liguo Jiao a.k.a <span1>iceman201</span1>. 👾</i></p></div>
 					<p>
-					<span3 data-scroll-reveal="wait 0.5s and then ease-in-out 100px">Software Engineer</span3> | <span2 data-scroll-reveal="wait 1.0s and then ease-in-out 100px">iOS Developer</span2> | <span3 data-scroll-reveal="wait 1.5s and then ease-in-out 100px">UI/UX Designer</span3> | <span2 data-scroll-reveal="wait 2.0s and then ease-in-out 100px">Rock Climber</span2></p>
+					<span3 data-scroll-reveal="wait 0.5s and then ease-in 100px">Software Engineer</span3> | <span2 data-scroll-reveal="wait 1.0s and then ease-in 100px">iOS Developer</span2> | <span3 data-scroll-reveal="wait 1.5s and then ease-in 100px">UI/UX Designer</span3> | <span2 data-scroll-reveal="wait 2.0s and then ease-out 100px">Rock Climber</span2></p>
 					<p data-scroll-reveal="enter from top move 230px"><span>Auckland, New Zealand</span></p>
 			</div>
 		<footer class="arrow-container">
@@ -58,7 +56,7 @@
 			<a href="index.html#hero" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 		<div class="showcase">
-			<h2 class="showcase-title" data-scroll-reveal="enter top move 500px over 2s">About myself</h2>
+			<h2 class="showcase-title" data-scroll-reveal="enter top move 360px over 2s">About myself</h2>
 			<h3 class="showcase-paragraph" data-scroll-reveal="enter left after 0.5s">KIA ORA,</h3>
 				<p class="showcase-paragraph" data-scroll-reveal="enter right move 230px over 2.0s" >My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.</p>
 
@@ -71,7 +69,7 @@
 
 <!-- Employment History [Markdown] -->
 	<section id="employment" class="flex">
-		<header class="arrow-container">
+		<header class="arrow-container-history">
 			<a href="index.html#work" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 
@@ -79,7 +77,7 @@
 			Loading...
 		</div>
 
-		<footer class="arrow-container">
+		<footer class="arrow-container-history">
 			<a href="index.html#networks" class="scroll"><span class="down-arrow"></span></a>
 		</footer>
 	</section>
@@ -109,13 +107,15 @@
 	</script>
 
 	<section id="networks">
-		<header class="arrow-container">
+		<header class="arrow-container-history">
+			<div id="particles-js-1" class="count-particles"></div>
 			<a href="index.html#employment" class="scroll"><span class="top-arrow"></span></a>
 		</header>
+		
 		<div class="hero-block">
-			<h1 data-scroll-reveal="enter top move 500px over 2s">Contact me</h1>
+			<h1 data-scroll-reveal="enter top move 320px over 2s">Contact me</h1>
 			<hr></hr>
-			<p data-scroll-reveal="after 0.5s, ease-in 320px and reset over 2s">
+			<p data-scroll-reveal="ease-in 320px and reset over 1s">
 				<a href="https://github.com/iceman201"><i class="github fa fa-github"></i></a>
 
 				<a href="https://nz.linkedin.com/in/liguojiaouc"><i class="linkedin fa fa-linkedin"></i></a>
@@ -148,8 +148,9 @@
     <script>
 		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     </script>
-
-
+    <script>
+	particlesJS("particles-js-1", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    </script>
 	<script>
 		var config = {
             easing: 'ease-in-out',

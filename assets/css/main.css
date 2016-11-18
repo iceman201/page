@@ -236,6 +236,13 @@ section.flex {
   position: relative;
 }
 
+.flex footer.arrow-container-history, .flex header.arrow-container-history {
+  height: 150px;
+  flex-grow: 1;
+  position: relative;
+}
+
+
 .showcase-tiles {
   padding-top: 0px;
   margin-top: 0px;
@@ -369,7 +376,6 @@ menu, dir {
 #networks {
 	width: 100%;
 	height: 100%;
-	padding-top: 200px;
 }
 
 #networks i {
