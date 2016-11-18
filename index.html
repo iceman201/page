@@ -54,12 +54,13 @@
 
 	<section id="work" class="flex">
 		<header class="arrow-container">
+			<div id="particles-js" class="showcase" class="count-particles"></div>
 			<a href="index.html#hero" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 		<div class="showcase">
 			<h2 class="showcase-title" data-scroll-reveal="enter top move 500px over 2s">About myself</h2>
 			<h3 class="showcase-paragraph" data-scroll-reveal="enter left after 0.5s">KIA ORA,</h3>
-				<p class="showcase-paragraph" data-scroll-reveal="enter right move 230px over 2.0s">My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.</p>
+				<p class="showcase-paragraph" data-scroll-reveal="enter right move 230px over 2.0s" >My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.</p>
 
 				<p class="showcase-paragraph" data-scroll-reveal="enter left move 230px over 2.0s">Mobile Application development is so much fun for me I love to design application, I perfer a clean and cute visual design, and also with useful &amp; intenional interaction. I eager learn new things to extend the limit of my knowledge. Therefore, I am running the Swift New Zealand github group to invite more Swift developers(worldwide) to do project together as a way to learn from each other.</p>
 		</div>
@@ -105,8 +106,6 @@
 	* Provide support and guidance relating to software packages used in the ITS workrooms.
 * ICT Services Department Hardware Assistant (Part-Time)
 	* Hardware equipment/device testing and maintenance.
-
-
 	</script>
 
 	<section id="networks">
@@ -144,6 +143,13 @@
     <script src="assets/js/jribbble.js"></script>
     <script src="assets/js/site-ck.js"></script>
     <script src="assets/js/marked.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+
+    <script>
+		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    </script>
+
+
 	<script>
 		var config = {
             easing: 'ease-in-out',
@@ -152,7 +158,6 @@
             init: true
           };
       window.scrollReveal = new scrollReveal(config);
-
  	 </script>
     <script>
     	marked.setOptions({
