@@ -140,8 +140,17 @@ a:active {
   position: relative; }
 
 .hero-block h1 {
-  font-weight: 80px;
+    font-size: 36px;
 }
+
+.hero-block hr {
+  height: 1px;
+  border: none;
+  color: #ccc;
+  background-color: #ccc;
+  width: 36%;
+  text-align: center;
+  margin: 0 auto;}
 
 .hero-block,
 .footer-block {
@@ -250,8 +259,7 @@ section.flex {
 }
 
 .showcase-title h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 36px;
 }
 
 .showcase-paragraph {
@@ -281,6 +289,9 @@ section.flex {
         font-weight: bold; 
     }
 
+.showcase h2 {
+    font-size: 36px;
+}
 .showcase h3 {
     font-size: 20px;
     font-weight: bold;
