@@ -402,8 +402,9 @@ menu, dir {
 	padding: 18px;
 }
 
-#networks .github {
+#networks .github:hover {
 	color: #FFFFFF;
+  background-color: lightblue；
 }
 
 #networks .linkedin:hover {
@@ -411,7 +412,7 @@ menu, dir {
 }
 
 #networks .blog:hover {
-  color: #F5F5F5;
+  color: #FF5252;
 }
 
 
@@ -460,23 +461,21 @@ menu, dir {
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
-  background: white;
+
   padding: 10px;
-  width: 250px;
+  width: 390px;
   margin: 0 auto;
   position: relative;
-  top: 50%;
-  transform: translateY(-65%);
-  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
-  border-radius: 2px;
+
 }
 .button {
-  background: #3D4C53;
+  background: #303F9F;
   margin : 20px auto;
-  width : 200px;
+  width : 336px;
   height : 50px;
   overflow: hidden;
   text-align : center;
+  line-height: 50px;
   transition : .2s;
   cursor : pointer;
   border-radius: 3px;
@@ -488,7 +487,7 @@ menu, dir {
   height : 100px;
   margin-top: -100px;
   padding-top: 2px;
-  background : #26A69A;
+  background : #121212;
   left : -250px;
   transition : .3s;
 }
@@ -497,15 +496,15 @@ menu, dir {
   transition : .3s;
 }
 .btnText2 {
-  margin-top : 63px;
-  margin-right : -130px;
-  color : #FFF;
+  margin-top : 38px;
+  margin-right : -30px;
+  color : #FFD700;
 }
 .button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
-  left: -130px;
+  left: -30px;
 }
 .button:hover .btnText{ /*When hovering over .button change .btnText*/
-  margin-left : 65px;
+  margin-left : 165px;
 }
 .button:active { /*Clicked and held*/
   box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
