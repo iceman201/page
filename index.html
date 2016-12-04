@@ -28,7 +28,8 @@
 		<a href="index.html#hero" class="scroll">section one</a>
 		<a href="index.html#work" class="scroll">section two</a>
 		<a href="index.html#employment" class="scroll">section three</a>
-		<a href="index.html#networks" class="scroll">section four</a>
+		<a href="index.html#projects" class="scroll">section four</a>
+		<a href="index.html#networks" class="scroll">section five</a>
 	</div>
 
 	<section id="hero" class="flex">
@@ -79,7 +80,7 @@
 		</div>
 
 		<footer class="arrow-container-history">
-			<a href="index.html#networks" class="scroll"><span class="down-arrow"></span></a>
+			<a href="index.html#projects" class="scroll"><span class="down-arrow"></span></a>
 		</footer>
 	</section>
 
@@ -107,28 +108,57 @@
 	* Hardware equipment/device testing and maintenance.
 	</script>
 
+	<section id="projects">
+		<header class="arrow-container-history">
+			
+			<a href="index.html#employment" class="scroll"><span class="top-arrow"></span></a>
+		</header>
+		
+		<div class="hero-block">
+			<h1 data-scroll-reveal="enter top move 320px over 2s">Projects</h1>
+			<hr></hr>
+			<p data-scroll-reveal="ease-in 320px and reset over 1s">
+				<h1>this is a new section. </h1>
+
+			</p>
+		</div>
+		<footer class="arrow-container-history">
+			<a href="index.html#networks" class="scroll"><span class="down-arrow"></span></a>
+		</footer>
+	</section>
+
 	<section id="networks">
 		<header class="arrow-container-history">
 			<div id="particles-js-1" class="count-particles"></div>
-			<a href="index.html#employment" class="scroll"><span class="top-arrow"></span></a>
+			<a href="index.html#projects" class="scroll"><span class="top-arrow"></span></a>
 		</header>
 		
 		<div class="hero-block">
 			<h1 data-scroll-reveal="enter top move 320px over 2s">Contact me</h1>
 			<hr></hr>
 			<p data-scroll-reveal="ease-in 320px and reset over 1s">
-				<a href="https://github.com/iceman201"><i class="github fa fa-github"></i></a>
+				<a class="github" href="https://github.com/iceman201"><i class="github fa fa-github"></i></a>
 
-				<a href="https://nz.linkedin.com/in/liguojiaouc"><i class="linkedin fa fa-linkedin"></i></a>
+				<a class="linkedin" href="https://nz.linkedin.com/in/liguojiaouc"><i class="linkedin fa fa-linkedin"></i></a>
 
-				<a href="https://blog.jiao.co.nz"><i class="blog fa fa-bold"></i></a>
+				<a class="blog" href="https://blog.jiao.co.nz"><i class="blog fa fa-bold"></i></a>
 
-				<a href="mailto:liguo@jiao.co.nz"><i class="mail fa fa-envelope"></i></a>
+				<a class="email" href="mailto:liguo@jiao.co.nz"><i class="mail fa fa-envelope"></i></a>
+				<div id="holder">
+					<div class="button">
+					    <p class="btnText">READY?</p>
+					    <div class="btnTwo">
+					    <p class="btnText2">GO!</p>
+				</div>
+	 </div>
+</div>
 			</p>
 
 		</div>
 
 	</section>
+
+
 
 
     <!-- Bootstrap core JavaScript
@@ -145,7 +175,128 @@
     <script src="assets/js/site-ck.js"></script>
     <script src="assets/js/marked.min.js"></script>
     <script src="assets/js/particles.js"></script>
- 	
+
+    <script>
+    	var document = window.document,
+	
+			  $_window = $( window ),
+		    
+		  timeout,
+		    
+		  isAnimating = false,
+		  slideNum = 0,
+
+		  	$welcomeBarL = $( ".bt-sl-solid-l" ),
+			  $welcomeBarR = $( ".bt-sl-solid-r" ),
+			  $btSlideActive = $( ".welcome-button" ).find( ".bt-slide-l" ),
+
+			  $welcomeBtn = $( ".welcome-button a" );
+		    
+		//------//
+
+		//Delegation
+		$welcomeBtn.on( 'mouseenter', function () {
+			  var timeout,
+				    $slidebar = $( '.bt-slider-' + slideNum ),
+				    
+		    animate = function () {
+		      
+					      timeout = setTimeout(function () {
+						        clearTimeout( timeout );
+
+						        if ( slideNum === 5 ) {
+							
+							          isAnimating = false;
+		          					slideNum = 0;
+
+						        } else {
+
+		          					isAnimating = true;
+		          					$slidebar = $( '.bt-slider-' + slideNum );
+
+		          					$slidebar.removeClass( 'bt-slide-l' );
+
+		          					slideNum++;
+
+		          					animate();
+
+						        }
+
+		      			}, 100 );
+				   };
+
+			  animate();
+		  
+		});
+
+		$welcomeBtn.on( 'mouseout', function () {
+			  var timeout,
+				      $slidebar = $( '.bt-slider-' + slideNum ),
+		        
+				      animate = function () {
+					
+		        timeout = setTimeout(function () {
+		          				clearTimeout( timeout );
+
+		          				if ( slideNum === 5 ) {
+
+		            					isAnimating = false;
+		            					slideNum = 0;
+
+		          				} else {
+
+		            					isAnimating = true;
+		            					$slidebar = $( '.bt-slider-' + slideNum );
+
+		            					$slidebar.addClass( 'bt-slide-l' );
+
+		            					slideNum++;
+
+		            					animate();
+
+						          }
+
+		        			}, 100 );
+		    		};
+
+		  	animate();
+		  
+		});
+
+		$_window.on( "load", function () {
+
+		  timeout = setTimeout(function () {
+							    clearTimeout();
+
+							    $welcomeBarL.removeClass( "down" );
+		    					$welcomeBarR.removeClass( "down" );
+
+		  				}, 100 );
+		  
+		  				timeout = setTimeout(function () {
+		    					clearTimeout();
+
+		    					$welcomeBarL.removeClass( "out" );
+		    					$welcomeBarR.removeClass( "out" );
+
+		  				}, 400 );
+
+		  timeout = setTimeout(function () {
+		    					clearTimeout();
+
+		    					$welcomeBtn.removeClass( "out" );
+
+		  				}, 800 );
+
+		  timeout = setTimeout(function () {
+		    					clearTimeout();
+
+		    					$btSlideActive.removeClass( "out" );
+
+		  				}, 1000 );
+
+		});
+    </script>
     <script>
 		particlesJS("particles-js", {
 		    "particles": {

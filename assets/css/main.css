@@ -9,6 +9,7 @@
  
 /* FONTS */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
 
 body {
   font-family: 'Helvetica Neue', Helvetica;
@@ -17,7 +18,8 @@ body {
   font-size: 18px;
   line-height: 36px;
   text-align: center;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 
 nav ul {
@@ -136,7 +138,8 @@ a:active {
         font-weight: bold; 
 }
 #work,
-#networks {
+#networks,
+#projects {
   position: relative; }
 
 .hero-block h1 {
@@ -177,8 +180,11 @@ a:active {
 #employment {
   background: #303A70; }
 
-#networks {
+#projects {
   background: #474e5d; }
+
+#networks {
+  background: #212121; }
 
 .down-arrow {
   position: absolute;
@@ -387,29 +393,44 @@ menu, dir {
 #networks {
 	width: 100%;
 	height: 100%;
+  margin: 0;
+  font-family : Roboto;
 }
 
 #networks i {
 	font-size: 60px;
-	color: white;
 	padding: 18px;
 }
 
-#networks .dribbble:hover {
-	color: #ed6297;
+#networks .github {
+	color: #FFFFFF;
 }
 
-#networks .facebook:hover {
-	color: #3b5998;
-}
-
-#networks .twitter:hover {
+#networks .linkedin:hover {
 	color: #2094CA;
 }
 
-#networks .mail:hover {
-	color: #f39c12;
+#networks .blog:hover {
+  color: #F5F5F5;
 }
+
+
+#networks .mail:hover {
+	color: #FFC107;
+}
+
+
+#projects {
+  width: 100%;
+  height: 100%;
+}
+
+#projects i {
+  font-size: 60px;
+  color: white;
+  padding: 18px;
+}
+
 
 
 
@@ -433,4 +454,59 @@ menu, dir {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+#holder{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  background: white;
+  padding: 10px;
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-65%);
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+  border-radius: 2px;
+}
+.button {
+  background: #3D4C53;
+  margin : 20px auto;
+  width : 200px;
+  height : 50px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.btnTwo {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #26A69A;
+  left : -250px;
+  transition : .3s;
+}
+.btnText {
+  color : white;
+  transition : .3s;
+}
+.btnText2 {
+  margin-top : 63px;
+  margin-right : -130px;
+  color : #FFF;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  left: -130px;
+}
+.button:hover .btnText{ /*When hovering over .button change .btnText*/
+  margin-left : 65px;
+}
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
 }
