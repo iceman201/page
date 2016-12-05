@@ -596,6 +596,9 @@ menu, dir {
    color: #e6e6e6;
    margin: 0;
  }
+ .nav__label img {
+  float: center;
+ }
  @media (max-width: 850px) {
    .nav__label {
      font-size: 14px;
@@ -661,9 +664,14 @@ menu, dir {
  .section__wrapper {
    width: 100%;
    max-width: 800px;
-   padding: 0 8vw;
    position: relative;
  }
+.section__wrapper p{
+  padding: 0 8vw;
+}
+.section__wrapper span {
+  color: #666666;
+}
  .section__img {
 width: 100%;
 height: 100%;
@@ -697,7 +705,6 @@ max-height: 300px;
  }
  .section p {
    margin: 0 0 25px 0;
-   font-family: 'Georgia';
    font-size: 18px;
    color: #fff;
    opacity: 0.55;
