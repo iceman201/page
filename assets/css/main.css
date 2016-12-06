@@ -665,7 +665,9 @@ menu, dir {
    width: 100%;
    max-width: 800px;
    position: relative;
+   
  }
+
 .section__wrapper p{
   padding: 0 8vw;
 }
@@ -675,7 +677,12 @@ menu, dir {
  .section__img {
 width: 100%;
 height: 100%;
-max-height: 300px;
+max-height: 600px;
+display: flex;
+ }
+  .section__img img{
+max-height: 100%;
+max-width: 100%;
  }
 
  .section__title {
@@ -721,7 +728,7 @@ max-height: 300px;
    background: #1b1f25;
  }
  .color2 {
-   background: #e74c3c;
+   background: #3F535F;
  }
  .color3 {
    background: #3498db;
