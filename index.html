@@ -31,7 +31,6 @@
 		<a href="index.html#projects" class="scroll">section four</a>
 		<a href="index.html#networks" class="scroll">section five</a>
 	</div>
-
 	<section id="hero" class="flex">
 			<div class="hero-block">
 				<a href="https://blog.jiao.co.nz">
@@ -128,7 +127,7 @@
 					</a>
 				</li>
 			</ul>
-			<img class="logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/ettrics-logo.svg" alt="" />
+			Loading........
 		</div>
 
 		<div class="page">
@@ -148,8 +147,8 @@
 								<img width="100px" src="assets/img/project/GymmeDairy-imga.png"></span>
 							</div>
 							<div id="two">
-								<p>Gym Workout Manager is a personal exercise recorder application coded by Swift language. User could use it as a helper/mentor during the workout, and record all the workout information to analyse the effectiveness of their workout.</p>
-
+								<p>Gym Workout Manager is a personal exercise recorder application. User could use it as an assistant tool helping user manage their workout plan, and record all the workout information to analysis the effectiveness of their workout.</p>
+								<span>Currently only available in English.</span>
 							</div>
 						
 						</div>
@@ -198,246 +197,8 @@
     <script src="assets/js/site-ck.js"></script>
     <script src="assets/js/marked.min.js"></script>
     <script src="assets/js/particles.js"></script>
-
-    <script>
-    	var Nav = (function () {
-
-    var
-        nav = $('.projectNav'),
-        section = $('.section'),
-        link = nav.find('.nav__link'),
-        navH = nav.innerHeight(),
-        isOpen = true,
-        hasT = false;
-
-    var toggleNav = function () {
-        nav.toggleClass('nav--active');
-        shiftPage();
-    };
-
-
-    var switchPage = function (e) {
-        var self = $(this);
-        var i = self.parents('.nav__item').index();
-        var s = section.eq(i);
-        var a = $('section.section--active');
-        var t = $(e.target);
-
-        if (!hasT) {
-            if (i == a.index()) {
-                return false;
-            }
-            a
-                .addClass('section--hidden')
-                .removeClass('section--active');
-
-            s.addClass('section--active');
-
-            hasT = true;
-
-            a.on('transitionend webkitTransitionend', function () {
-                $(this).removeClass('section--hidden');
-                hasT = false;
-                a.off('transitionend webkitTransitionend');
-            });
-        }
-
-        return false;
-    };
-
-    var keyNav = function (e) {
-        var a = $('section.section--active');
-        var aNext = a.next();
-        var aPrev = a.prev();
-        var i = a.index();
-
-
-        if (!hasT) {
-            if (e.keyCode === 37) {
-
-                if (aPrev.length === 0) {
-                    aPrev = section.last();
-                }
-
-                hasT = true;
-
-                aPrev.addClass('section--active');
-                a
-                    .addClass('section--hidden')
-                    .removeClass('section--active');
-
-                a.on('transitionend webkitTransitionend', function () {
-                    a.removeClass('section--hidden');
-                    hasT = false;
-                    a.off('transitionend webkitTransitionend');
-                });
-
-            } else if (e.keyCode === 39) {
-
-                if (aNext.length === 0) {
-                    aNext = section.eq(0)
-                }
-
-
-                aNext.addClass('section--active');
-                a
-                    .addClass('section--hidden')
-                    .removeClass('section--active');
-
-                hasT = true;
-
-                aNext.on('transitionend webkitTransitionend', function () {
-                    a.removeClass('section--hidden');
-                    hasT = false;
-                    aNext.off('transitionend webkitTransitionend');
-                });
-
-            } else {
-                return
-            }
-        }
-    };
-
-    var bindActions = function () {
-        link.on('click', switchPage);
-        $(document).on('ready', function () {
-            page.css({
-                'transform': 'translateY(' + navH + 'px)',
-                '-webkit-transform': 'translateY(' + navH + 'px)'
-            });
-        });
-        $('body').on('keydown', keyNav);
-    };
-
-    var init = function () {
-        bindActions();
-    };
-
-    return {
-        init: init
-    };
-
-} ());
-
-Nav.init();
-
-    </script>
-    <script>
-    	var document = window.document,
-	
-			  $_window = $( window ),
-		    
-		  timeout,
-		    
-		  isAnimating = false,
-		  slideNum = 0,
-
-		  	$welcomeBarL = $( ".bt-sl-solid-l" ),
-			  $welcomeBarR = $( ".bt-sl-solid-r" ),
-			  $btSlideActive = $( ".welcome-button" ).find( ".bt-slide-l" ),
-
-			  $welcomeBtn = $( ".welcome-button a" );
-		    
-		//------//
-
-		//Delegation
-		$welcomeBtn.on( 'mouseenter', function () {
-			  var timeout,
-				    $slidebar = $( '.bt-slider-' + slideNum ),
-				    
-		    animate = function () {
-		      
-					      timeout = setTimeout(function () {
-						        clearTimeout( timeout );
-
-						        if ( slideNum === 5 ) {
-							
-							          isAnimating = false;
-		          					slideNum = 0;
-
-						        } else {
-		          					isAnimating = true;
-		          					$slidebar = $( '.bt-slider-' + slideNum );
-		          					$slidebar.removeClass( 'bt-slide-l' );
-		          					slideNum++;
-		          					animate();
-						        }
-
-		      			}, 100 );
-				   };
-
-			  animate();
-		  
-		});
-
-		$welcomeBtn.on( 'mouseout', function () {
-			  var timeout,
-				      $slidebar = $( '.bt-slider-' + slideNum ),
-		        
-				      animate = function () {
-					
-		        timeout = setTimeout(function () {
-		          				clearTimeout( timeout );
-
-		          				if ( slideNum === 5 ) {
-
-		            					isAnimating = false;
-		            					slideNum = 0;
-
-		          				} else {
-
-		            					isAnimating = true;
-		            					$slidebar = $( '.bt-slider-' + slideNum );
-
-		            					$slidebar.addClass( 'bt-slide-l' );
-
-		            					slideNum++;
-
-		            					animate();
-
-						          }
-
-		        			}, 100 );
-		    		};
-
-		  	animate();
-		  
-		});
-
-		$_window.on( "load", function () {
-
-		  timeout = setTimeout(function () {
-							    clearTimeout();
-
-							    $welcomeBarL.removeClass( "down" );
-		    					$welcomeBarR.removeClass( "down" );
-
-		  				}, 100 );
-		  
-		  				timeout = setTimeout(function () {
-		    					clearTimeout();
-
-		    					$welcomeBarL.removeClass( "out" );
-		    					$welcomeBarR.removeClass( "out" );
-
-		  				}, 400 );
-
-		  timeout = setTimeout(function () {
-		    					clearTimeout();
-
-		    					$welcomeBtn.removeClass( "out" );
-
-		  				}, 800 );
-
-		  timeout = setTimeout(function () {
-		    					clearTimeout();
-
-		    					$btSlideActive.removeClass( "out" );
-
-		  				}, 1000 );
-
-		});
-    </script>
+    <script src="assets/js/mySecretScript.js"></script>
+    <script src="assets/js/mySecretScript2.js"></script>
     <script>
 		particlesJS("particles-js", {
 		    "particles": {
@@ -551,7 +312,7 @@ Nav.init();
 		});;
     </script>
     <script>
-particlesJS("particles-js-1", {
+	particlesJS("particles-js-1", {
 	    "particles": {
 	        "number": {
 	            "value": 160,
