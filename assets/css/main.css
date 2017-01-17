@@ -616,7 +616,8 @@ menu, dir {
  }
 
  .page {
-   height: 95vh;
+   height: 777px;
+   background-color: #1b1f25;
    will-change: transform;
    -webkit-perspective: 400px;
            perspective: 400px;
