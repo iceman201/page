@@ -13,17 +13,20 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
 <body>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
 	<!-- navigation -->
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">About myself</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">My Design</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-software">Curriculum Vitae</a></div>
-
+		<div class="pages-nav__item"><a class="link link--page" href="#page-aboutme">About myself</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-mydesign">My Design</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-cv">Curriculum Vitae</a></div>
 
 		<div class="pages-nav__item pages-nav__item--social">
 			<div id="holder">
@@ -40,38 +43,38 @@
 			<a class="link link--social link--faded" href="https://twitter.com/jiaoliguo"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
 			<a class="link link--social link--faded" href="https://www.linkedin.com/in/liguojiaouc/"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
 		</div>
-
 	</nav>
 	<!-- /navigation-->
 	<!-- pages stack -->
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
+
 			<!-- Blueprint header -->
 			<header class="bp-header cf">
 				<img class="img-circle" data-scroll-reveal="enter top move 360px over 2s" src="images/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 				<h1 class="bp-header__title">Kia ora</h1>
 				<div id="first-strings">
 				<span class="element"></span>
-
+				Software Engineer | iOS Developer | UI/UX Designer | Rock Climber
+				Wellington, New Zealand
 				</div>
-
 			</header>
-
 		</div>
+
 		<!-- /page -->
-		<div class="page" id="page-docu">
+		<div class="page" id="page-aboutme">
 			<header class="bp-header cf">
-				<h1 class="bp-header__title">Documentation</h1>
-				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot </p>
+				<h1 class="bp-header__title">About myself</h1>
 				<p class="info">
-					"We cannot have peace among men whose hearts find delight in killing any living creature." &mdash; Rachel Carson
+					My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to Sidewinder and SCADAFarm iOS Application, and get involved with build up RefitPlaner iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named Gymme Dairy and PokeCP iOS Application.</p>
+				<p class="info">
+					Mobile Application development is so much fun for me I love to design application, I prefer a clean and cute visual design, and also with useful &amp; intentional interaction. I eager learn new things to extend the limit of my knowledge. Therefore, I am running the Swift New Zealand GitHub group to invite more Swift developers(worldwide) to do project together as a way to learn from each other.
 				</p>
 			</header>
-			<img class="poster" src="images/6.jpg" alt="img06" />
 		</div>
 
-		<div class="page" id="page-software">
+		<div class="page" id="page-mydesign">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Software &amp; Downloads</h1>
 				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot </p>
@@ -79,15 +82,53 @@
 					"I decided to pick the diet that I thought would maximize my chances of long-term survival." &mdash; Al Gore
 				</p>
 			</header>
-			<img class="poster" src="images/3.jpg" alt="img03" />
+		</div>
+
+		<div class="page" id="page-cv">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Experience</h1>
+				<div class="history">
+					Loading...
+				</div>
+			</header>
 		</div>
 	</div>
+
+	<script type="text/markdown" id="experience-src">
+
+<h1>Experience</h1>
+<hr></hr>
+### ThunderMaps
+* iOS Developer<span style="float:right">21/02/2017 － Now </span>
+  * Maintaining ThunderMaps mobile application.
+  * ***Swift***, ***Cordova***, ***ionic***.
+  * UI/UX Design.
+
+### McKay Ltd
+* iOS Developer<span style="float:right">09/09/2015 － 30/01/2017 </span>
+	*  Developing and maintaining iOS applications. Experienced in iOS SDK such as ***Parse***, ***Realm***, ***Mapbox***, ***Xamarin***, ***POP Animation***, ***Spring Animation***, ***Alamofire***, ***Core Motion***, ***Core Graphic***.
+      *  **SCADAFarm** iOS Application
+      *  **RefitPlanner** iOS Application
+      *  **SideWinder** iOS Applications
+      *  Mobile Application of **METS** Timesheet System
+      *  Develope framework library, such as an image annotation framework using Core Graphic.
+	*  iOS applications testing, and setup error handling.
+	*  UI/UX Design.
+
+### University of Canterbury
+* ICT Services Department Technician <span style="float:right">25/01/2015 － 31/08/2015</span>
+	* Assisting students with IT account queries, provide IT support in the Central Library.
+	* University server maintenance.
+	* Provide support and guidance relating to software packages used in the ITS workrooms.
+	* Hardware equipment/device testing and maintenance.
+	</script>
 	<!-- /pages-stack -->
 	<button class="menu-button"><span>Menu</span></button>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/marked.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="bower_components/typed.js/dist/typed.min.js"></script>
 
@@ -318,7 +359,7 @@
 	<script>
 	    document.addEventListener("DOMContentLoaded", function(){
 	        Typed.new(".element", {
-	            strings: ["😊I'm Liguo Jiao a.k.a <span>iceman201</span>. 👾"],
+	            strings: ["😊 I'm Liguo Jiao a.k.a <span>iceman201</span>. 👾"],
 							contentType: 'html',
 							cursorChar: "_",
 							typeSpeed: 66,
@@ -339,6 +380,13 @@
 	        });
 	    });
 	</script>
+	<script>
+		marked.setOptions({
+			smartypants: true
+		})
+		$('#page-cv .history').html(marked($('script#experience-src').text()))
+	</script>
+
 
 </body>
 
