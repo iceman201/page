@@ -98,7 +98,7 @@ var Nav = (function () {
     var bindActions = function () {
         link.on('click', switchPage);
         $(document).on('ready', function () {
-            page.css({
+            tabPage.css({
                 'transform': 'translateY(' + navH + 'px)',
                 '-webkit-transform': 'translateY(' + navH + 'px)'
             });

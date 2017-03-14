@@ -152,12 +152,17 @@ html.js,
 .js .page {
 	position: relative;
 	z-index: 5;
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	height: 100vh;
 	pointer-events: auto;
 	background: #2a2b30;
 	box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.js .page .history{
+	padding-top: 10rem;
+	text-align: -webkit-auto;
 }
 
 .js .pages-stack--open .page {
@@ -179,7 +184,7 @@ html.js,
 
 .info {
 	font-size: 1.25em;
-	max-width: 50%;
+	max-width: 100%;
 	margin-top: 1.5em;
 }
 
