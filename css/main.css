@@ -50,12 +50,33 @@ a:hover {
 }
 
 .img-circle {
-    border-radius: 50%;
-		position: absolute;
+  border-radius: 50%;
+}
 
-		left: 50%;
-		margin-right: -50%;
-		transform: translate(-50%, -100%);
+.bp-header span
+    {
+        color: #E0FFFF;
+        font-weight: bold;
+    }
+.bp-header  span1 
+    {
+        color: #60F8DA;
+        font-weight: bold;
+    }
+.bp-header span2 
+    {
+        color: #FFD623;
+        font-weight: bold; 
+    }
+.bp-header span3 
+    {
+        color: #ffffff;
+        font-weight: bold; 
+    }
+.bp-header span4
+{
+        color: #0c8ab0;
+        font-weight: bold; 
 }
 
 /* Blueprint header */
@@ -66,7 +87,7 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-
+  text-align: center;
   transform: translate(-50%, -50%)
 }
 
@@ -579,3 +600,15 @@ max-width: 100%;
    -webkit-transform: rotate(180deg) scale(1.1);
            transform: rotate(180deg) scale(1.1);
  }
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
