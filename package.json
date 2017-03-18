@@ -1,0 +1,23 @@
+{
+  "name": "page-2.0",
+  "version": "1.0.0",
+  "description": "ls",
+  "main": "index.js",
+  "dependencies": {
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceman201/page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceman201/page/issues"
+  },
+  "homepage": "https://github.com/iceman201/page#readme"
+}
