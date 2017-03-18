@@ -13,7 +13,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
@@ -49,33 +50,37 @@
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
-			
+
 			<!-- Blueprint header -->
 			<header class="bp-header cf">
 
-				<img class="img-circle img-responsive center-block" data-scroll-reveal="enter top move 360px over 2s" src="images/self.png" width="200" height="200" class="mb-7 hero-image"></a>					
+				<img class="img-circle img-responsive center-block" src="images/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 
 				<h1 class="bp-header__title">Kia ora</h1>
 				<div id="first-strings">
 					<span class="element"></span>
 				</div>
-				
-				<span3 data-scroll-reveal="wait 0.5s and then ease-in 100px">Software Engineer</span3> | <span2 data-scroll-reveal="wait 1.0s and then ease-in 100px">iOS Developer</span2> | <span3 data-scroll-reveal="wait 1.5s and then ease-in 100px">UI/UX Designer</span3> | <span2 data-scroll-reveal="wait 2.0s and then ease-out 100px">Rock Climber</span2></p>
-					<p data-scroll-reveal="enter from top move 230px"><span>Auckland, New Zealand</span></p>
-				
+
+				<span3>Software Engineer</span3> | <span2>iOS Developer</span2> | <span3>UI/UX Designer</span3> | <span2>Rock Climber</span2></p>
+					<p><span>Wellington, New Zealand</span></p>
+
 			</header>
 		</div>
 
 		<!-- /page -->
 		<div class="page" id="page-aboutme">
-			<header class="bp-header cf">
+			<div id="particles-js" class="showcase" class="count-particles">
+			<div class="bp-header cf bp-aboutmyself">
 				<h1 class="bp-header__title">About myself</h1>
-				<p class="info">
-					My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to Sidewinder and SCADAFarm iOS Application, and get involved with build up RefitPlaner iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named Gymme Dairy and PokeCP iOS Application.</p>
-				<p class="info">
+				<p class="showcase-paragraph" >
+					My name is Liguo Jiao a.k.a iceman201. 25 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Auckland, New Zealand. I’m an iOS developer with 2 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <span2>Sidewinder</span2> and <span1>SCADAFarm</span1> iOS Application, and get involved with build up <span3>RefitPlaner</span3> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <span>PokeCP</span> iOS Application.
+				</p>
+				<br>
+				<p class="showcase-paragraph">
 					Mobile Application development is so much fun for me I love to design application, I prefer a clean and cute visual design, and also with useful &amp; intentional interaction. I eager learn new things to extend the limit of my knowledge. Therefore, I am running the Swift New Zealand GitHub group to invite more Swift developers(worldwide) to do project together as a way to learn from each other.
 				</p>
-			</header>
+			</div>
+			</div>
 		</div>
 
 		<div class="page" id="page-mydesign">
@@ -122,7 +127,7 @@
 												<img width="100px" src="images/project/GymmeDairy-imga.png"></span>
 											</div>
 											<div id="two">
-												<p>Gym Workout Manager is a personal exercise recorder application. User could use it as an assistant tool helping user manage their workout plan, and record all the workout information to analysis the effectiveness of their workout.</p>
+												<p>Gymme Diary a.k.a Gym Workout Manager is a personal exercise recorder application. User could use it as an assistant tool helping user manage their workout plan, and record all the workout information to analysis the effectiveness of their workout.</p>
 												<span>Will be available in app store soon.</span>
 											</div>
 										</div>
@@ -132,17 +137,18 @@
 		</div>
 
 		<div class="page history" id="page-cv">
-			<header class="bp-header cf">
-				<h1 class="bp-header__title">Experience</h1>
-				<div class="history">
-					Loading...
-				</div>
-			</header>
+			<div id="particles-js-1" class="count-particles">
+				<header class="bp-cvpage cf">
+					<h1 class="bp-header__title">Experience</h1>
+					<div class="history">
+						Loading...
+					</div>
+				</header>
+			</div>
 		</div>
 	</div>
 
 	<script type="text/markdown" id="experience-src">
-<h1>Experience</h1>
 <hr></hr>
 ### ThunderMaps
 * iOS Developer<span style="float:right">21/02/2017 － Now </span>
@@ -172,10 +178,13 @@
 	<button class="menu-button"><span>Menu</span></button>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scrollReveal.js"></script>
-	<script src="js/classie.js"></script>
 
+	<script src="bower_components/scrollreveal/dist/scrollreveal.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/classie.js"></script>
+	<script src="js/particles.js"></script>
 	<script src="js/marked.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/mySecretScript.js"></script>
@@ -430,15 +439,13 @@
 	        });
 	    });
 	</script>
+
 	<script>
-		var config = {
-		    easing: 'ease-in-out',
-		    viewportFactor: 0.33,
-		    reset: true,
-		    init: true
-		  };
-		window.scrollReveal = new scrollReveal(config);
+	window.sr = ScrollReveal();
+	sr.reveal('.firsthaha');
+	sr.reveal('.secondhaha');
 	</script>
+
 	<script>
 		marked.setOptions({
 			smartypants: true

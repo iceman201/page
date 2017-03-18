@@ -31,9 +31,13 @@
 /* Main styles */
 
 body {
+font-size: 18px;
+line-height: 36px;
+font-weight: 300;
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	margin: 0;
-	color: #cecece;
+
+	color: #f5f6f7;
 	background: #1d1e21;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -58,25 +62,34 @@ a:hover {
         color: #E0FFFF;
         font-weight: bold;
     }
-.bp-header  span1 
+.bp-header  span1
     {
         color: #60F8DA;
         font-weight: bold;
     }
-.bp-header span2 
+.bp-header span2
     {
         color: #FFD623;
-        font-weight: bold; 
+        font-weight: bold;
     }
-.bp-header span3 
+.bp-header span3
     {
         color: #ffffff;
-        font-weight: bold; 
+        font-weight: bold;
     }
 .bp-header span4
 {
         color: #0c8ab0;
-        font-weight: bold; 
+        font-weight: bold;
+}
+.bp-cvpage {
+
+  align-items: center;
+  position: absolute;
+  top: 39em;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%)
 }
 
 /* Blueprint header */
@@ -86,6 +99,7 @@ a:hover {
   align-items: center;
   position: absolute;
   top: 50%;
+	width: 71%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%)
@@ -249,15 +263,21 @@ a:hover {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-
+#page-aboutme {
+	background-color: #462C5F;
+}
+#page-cv {
+	background-color: #1D3136;
+}
 #holder{
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
 
-  padding: 10px;
+
   width: 390px;
   margin: 0 auto;
+	margin-bottom: 20px;
   position: relative;
 
 }
@@ -303,20 +323,50 @@ a:hover {
 @media screen and (max-width: 40em) {
 	.bp-header {
 		padding: 50px 20px 1em;
+		width: 90%;
+	}
+	.bp-cvpage {
+		padding: 35rem 20px 1em;
+    width: 100%;
+	}
+	.bp-aboutmyself {
+		width: 100%;
+    top: 35rem;
 	}
 	.bp-header__title {
 		font-size: 1.8em;
 	}
+	.showcase-paragraph {
+		width: 100% !important;
+	}
+.section__img {
+	max-height: 190px !important;
+}
+
+	#holder{
+	  -moz-user-select: -moz-none;
+	  -khtml-user-select: none;
+	  -webkit-user-select: none;
+
+	  width: 258px;
+	  margin: 0 auto;
+	  position: relative;
+	}
+
 }
 
 /*project tab view*/
 .projectNav {
    will-change: transform;
 	 position: fixed;
-	 top: -38px;
+
 	 left: 0;
+    top: -85px;
+
+    width: 100%;
+    height: 0rem;
+    margin-top: 30px;
 	 width: 100%;
-	 height: 13%;
    background: #1a1a1a;
 
 
@@ -359,7 +409,7 @@ a:hover {
  .nav__thumb:before {
    content: attr(data-letter);
    position: absolute;
-   top: 50%;
+   top: 77%;
    left: 50%;
    -webkit-transform: translate(-50%, -50%);
            transform: translate(-50%, -50%);
@@ -446,10 +496,10 @@ a:hover {
    min-height: 1000px;
  }
  .section__wrapper {
-   width: 100%;
+	 width: 100%;
+   max-width: 1000px;
    height: 100%;
-   max-height: 800px;
-   max-width: 800px;
+   top: 8rem;
    position: relative;
  }
 
@@ -457,7 +507,7 @@ a:hover {
    width: 100%;
    max-width: 1000px;
    height: 100%;
-   max-height: 800px;
+   top: 5rem;
    position: relative;
  }
 
@@ -529,7 +579,7 @@ max-width: 100%;
  .section__title:before {
    content: '';
    position: absolute;
-   top: 5rem;
+   top: 3rem;
    left: 45%;
    margin: auto;
    width: 10%;
@@ -600,6 +650,46 @@ max-width: 100%;
    -webkit-transform: rotate(180deg) scale(1.1);
            transform: rotate(180deg) scale(1.1);
  }
+
+ .flex .showcase {
+   width: 100%;
+   padding: 0px;
+   margin-top: -25px;
+   padding-top: 3rem;
+ }
+ .showcase h2 {
+     font-size: 36px;
+ }
+ .showcase h3 {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.showcase-paragraph {
+   margin: auto;
+   height: auto;
+   width: 70%;
+   text-align: left;
+}
+.showcase-paragraph span {
+	 color: #FB8CA6;
+   font-weight: bold;
+}
+.showcase-paragraph span1 {
+   color: #9DEC6E;
+   font-weight: bold;
+}
+.showcase-paragraph  span2 {
+   color: #FFC417;
+   font-weight: bold;
+}
+.showcase-paragraph span3 {
+   color: #82EAE6;
+   font-weight: bold;
+}
+
+
+
 html {
     overflow: scroll;
     overflow-x: hidden;

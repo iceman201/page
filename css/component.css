@@ -46,7 +46,7 @@ html.js,
 }
 
 .pages-nav__item {
-	width: 33%;
+	width: 50%;
 	padding: 1em;
 }
 
@@ -161,7 +161,6 @@ html.js,
 }
 
 .js .page .history{
-	padding-top: 10rem;
 	text-align: -webkit-auto;
 	padding-bottom: 150px;
 }
@@ -287,7 +286,7 @@ html.js,
 		margin: 0 0 0 50%;
 	}
 	.pages-nav__item {
-		width: 50%;
+    width: 50%;
 		min-height: 20px;
 	}
 	.link--page {
@@ -299,6 +298,8 @@ html.js,
 		margin: 0 0.1em;
 	}
 }
+
+
 
 @media screen and (max-width: 40em) {
 	.js .pages-nav {
@@ -329,4 +330,5 @@ html.js,
 	.poster {
 		margin: 1em;
 	}
+
 }
