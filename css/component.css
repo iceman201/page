@@ -163,6 +163,8 @@ html.js,
 .js .page .history{
 	text-align: -webkit-auto;
 	padding-bottom: 150px;
+	font-size: 18px;
+	line-height: 36px;
 }
 
 .js .pages-stack--open .page {
