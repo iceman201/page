@@ -15,7 +15,14 @@
 *:before {
 	box-sizing: border-box;
 }
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 /* Helper classes */
 
 .cf:before,
@@ -34,7 +41,7 @@ body {
 font-size: 18px;
 line-height: 36px;
 font-weight: 300;
-	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica', 'Lato', 'Segoe UI', Helvetica, sans-serif;
 	margin: 0;
 
 	color: #f5f6f7;
@@ -88,6 +95,7 @@ a:hover {
   position: absolute;
   top: 39em;
   left: 50%;
+  width: 66%;
   text-align: center;
   transform: translate(-50%, -50%)
 }
@@ -668,7 +676,7 @@ max-width: 100%;
 .showcase-paragraph {
    margin: auto;
    height: auto;
-   width: 70%;
+   width: 85%;
    text-align: left;
 }
 .showcase-paragraph span {
