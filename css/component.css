@@ -167,6 +167,10 @@ html.js,
 	line-height: 36px;
 }
 
+.js .page .history span1 {
+	color: white;
+}
+
 .js .pages-stack--open .page {
 	cursor: pointer;
 	-webkit-transition: -webkit-transform 0.45s, opacity 0.45s;
