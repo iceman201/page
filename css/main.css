@@ -272,7 +272,8 @@ a:hover {
     100% { opacity:1; }
 }
 #page-aboutme {
-	background-color: #462C5F;
+	background: #1d1e21;
+
 }
 #page-cv {
 	background-color: #1D3136;
@@ -346,6 +347,9 @@ a:hover {
 	}
 	.showcase-paragraph {
 		width: 100% !important;
+	}
+	.ocean {
+		position:relative;
 	}
 .section__img {
 	max-height: 190px !important;
