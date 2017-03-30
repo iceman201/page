@@ -93,7 +93,7 @@ a:hover {
 
   align-items: center;
   position: absolute;
-  top: 39em;
+  top: 100%;
   left: 50%;
   width: 66%;
   text-align: center;
@@ -328,15 +328,63 @@ a:hover {
   box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
 }
 
+/*iPhone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+	.bp-header {
+		padding: 50px 20px 1em;
+		width: 90%;
+		zoom: 70%;
+	}
+	.bp-cvpage {
+		padding: 0rem 20px 1em;
+    width: 100%;
+    -moz-transform: scale(0.5, 0.5);
+    zoom: 0.5;
+    zoom: 50%;
+	}
+	.bp-aboutmyself {
+		width: 100%;
+		top: 35rem;
+		-moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+		zoom: 0.8; /* Other non-webkit browsers */
+		zoom: 80%; /* Webkit browsers */
+	}
+	.bp-header__title {
+		font-size: 1.8em;
+	}
+	.showcase-paragraph {
+		width: 100% !important;
+	}
+	.ocean {
+		padding-top: 100%;
+		margin-bottom: -207%;
+	}
+.section__img {
+	max-height: 190px !important;
+}
 
-@media screen and (max-width: 40em) {
+	#holder{
+		-moz-user-select: -moz-none;
+		-khtml-user-select: none;
+		-webkit-user-select: none;
+
+		width: 258px;
+		margin: 0 auto;
+		position: relative;
+	}
+}
+/*iPhone6*/
+@media screen and (device-aspect-ratio: 375/667) {
 	.bp-header {
 		padding: 50px 20px 1em;
 		width: 90%;
 	}
 	.bp-cvpage {
-		padding: 38rem 20px 1em;
-    width: 100%;
+		padding: 11rem 20px 1em;
+    width: 98%;
+    -moz-transform: scale(0.7, 0.7);
+    zoom: 0.7;
+    zoom: 70%;
 	}
 	.bp-aboutmyself {
 		width: 100%;
@@ -349,11 +397,12 @@ a:hover {
 		width: 100% !important;
 	}
 	.ocean {
-		position:relative;
+		padding-top: 100%;
+    margin-bottom: -122%;
 	}
-.section__img {
-	max-height: 190px !important;
-}
+	.section__img {
+		max-height: 190px !important;
+	}
 
 	#holder{
 	  -moz-user-select: -moz-none;
@@ -365,6 +414,58 @@ a:hover {
 	  position: relative;
 	}
 
+}
+
+/*iPhone6 Plus*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+	.bp-header {
+		padding: 50px 20px 1em;
+		width: 90%;
+	}
+	.bp-cvpage {
+		padding: 0rem 0px 3em;
+    width: 90%;
+    -moz-transform: scale(0.73, 0.73);
+    zoom: 0.73;
+    zoom: 73%;
+	}
+	.bp-aboutmyself {
+		width: 100%;
+    top: 30rem;
+	}
+	.bp-header__title {
+		font-size: 1.8em;
+	}
+	.showcase-paragraph {
+		width: 100% !important;
+	}
+	.ocean {
+		padding-top: 100%;
+    margin-bottom: -120%;
+	}
+	.section__img {
+		max-height: 190px !important;
+	}
+
+	#holder{
+	  -moz-user-select: -moz-none;
+	  -khtml-user-select: none;
+	  -webkit-user-select: none;
+
+	  width: 258px;
+	  margin: 0 auto;
+	  position: relative;
+	}
+}
+
+/*iPad Pro*/
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) {
+	.bp-cvpage {
+		height: 100%;
+    top: 53%;
+	}
 }
 
 /*project tab view*/
