@@ -336,8 +336,11 @@ a:hover {
 		width: 90%;
 		zoom: 70%;
 	}
+	.bp-main {
+		zoom: 59%;
+	}
 	.bp-cvpage {
-		padding: 0rem 20px 1em;
+		padding: 0rem 20px 25em;
     width: 100%;
     -moz-transform: scale(0.5, 0.5);
     zoom: 0.5;
