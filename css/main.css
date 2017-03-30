@@ -346,8 +346,9 @@ a:hover {
 		top: 5rem !important;
 	}
 	.bp-cvpage {
-		padding: 0rem 20px 25em;
+		padding: 56rem 20px 0em;
     width: 100%;
+    top: 0px;
     -moz-transform: scale(0.5, 0.5);
     zoom: 0.5;
     zoom: 50%;
