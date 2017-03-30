@@ -339,12 +339,21 @@ a:hover {
 	.bp-main {
 		zoom: 59%;
 	}
+	.section__wrapper {
+		top: 5rem !important;
+	}
+	.section__wrapper_two {
+		top: 5rem !important;
+	}
 	.bp-cvpage {
 		padding: 0rem 20px 25em;
     width: 100%;
     -moz-transform: scale(0.5, 0.5);
     zoom: 0.5;
     zoom: 50%;
+	}
+	.tabPage {
+		zoom: 80%;
 	}
 	.bp-aboutmyself {
 		width: 100%;
