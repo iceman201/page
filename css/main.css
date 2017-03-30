@@ -465,7 +465,7 @@ a:hover {
 	}
 }
 
-/*SamsungS7&S7Edge*/
+/*Samsung S7 & S7Edge*/
 @media screen and (device-width: 360px) and (device-height: 640px) {
 	.bp-header {
 		padding: 50px 20px 1em;
@@ -499,7 +499,7 @@ a:hover {
 	}
 	.ocean {
 		padding-top: 100%;
-    margin-bottom: -122%;
+    margin-bottom: -145%;
 	}
 	.section__img {
 		max-height: 190px !important;
