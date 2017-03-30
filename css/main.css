@@ -380,6 +380,9 @@ a:hover {
 		padding: 50px 20px 1em;
 		width: 90%;
 	}
+	.bp-main{
+		zoom:69%;
+	}
 	.bp-cvpage {
 		padding: 11rem 20px 1em;
     width: 98%;
@@ -423,6 +426,9 @@ a:hover {
 		padding: 50px 20px 1em;
 		width: 90%;
 	}
+	.bp-main{
+		zoom:76%;
+	}
 	.bp-cvpage {
 		padding: 0rem 0px 3em;
     width: 90%;
@@ -459,10 +465,58 @@ a:hover {
 	}
 }
 
+/*SamsungS7&S7Edge*/
+@media screen and (device-width: 360px) and (device-height: 640px) {
+	.bp-header {
+		padding: 50px 20px 1em;
+		width: 90%;
+	}
+	.bp-main{
+		zoom:67%;
+	}
+	.tabPage {
+    zoom: 80%;
+	}
+	.section__wrapper {
+		top: 5rem !important;
+	}
+	.bp-cvpage {
+		padding: 15rem 20px 1em;
+    width: 98%;
+    -moz-transform: scale(0.7, 0.7);
+    zoom: 0.7;
+    zoom: 70%;
+	}
+	.bp-aboutmyself {
+		width: 100%;
+    top: 35rem;
+	}
+	.bp-header__title {
+		font-size: 1.8em;
+	}
+	.showcase-paragraph {
+		width: 100% !important;
+	}
+	.ocean {
+		padding-top: 100%;
+    margin-bottom: -122%;
+	}
+	.section__img {
+		max-height: 190px !important;
+	}
+
+	#holder{
+	  -moz-user-select: -moz-none;
+	  -khtml-user-select: none;
+	  -webkit-user-select: none;
+
+	  width: 258px;
+	  margin: 0 auto;
+	  position: relative;
+	}
+}
 /*iPad Pro*/
-@media only screen
-and (min-device-width : 1024px)
-and (max-device-width : 1366px) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
 	.bp-cvpage {
 		height: 100%;
     top: 53%;
