@@ -483,7 +483,7 @@ a:hover {
 /*Samsung S7 & S7Edge*/
 @media screen and (device-width: 360px) and (device-height: 640px) {
 	.bp-header {
-		padding: 0px 20px 1em;
+		padding: 50px 20px 1em;
 		width: 90%;
 	}
 	.bp-main{
