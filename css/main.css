@@ -358,7 +358,7 @@ a:hover {
 	}
 	.bp-aboutmyself {
 		width: 100%;
-		top: 35rem;
+		top: 33rem;
 		-moz-transform: scale(0.8, 0.8); /* Moz-browsers */
 		zoom: 0.8; /* Other non-webkit browsers */
 		zoom: 80%; /* Webkit browsers */
@@ -373,10 +373,12 @@ a:hover {
 		padding-top: 100%;
 		margin-bottom: -207%;
 	}
-.section__img {
-	max-height: 190px !important;
-}
-
+	.section__img {
+		max-height: 190px !important;
+	}
+	#holder .button {
+    zoom: 75%;
+	}
 	#holder{
 		-moz-user-select: -moz-none;
 		-khtml-user-select: none;
