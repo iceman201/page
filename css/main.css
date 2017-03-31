@@ -445,11 +445,12 @@ a:hover {
 		zoom:76%;
 	}
 	.bp-cvpage {
-		padding: 0rem 0px 3em;
-    width: 90%;
-    -moz-transform: scale(0.73, 0.73);
-    zoom: 0.73;
-    zoom: 73%;
+		padding: 93rem 0px 3em;
+		width: 90%;
+		-moz-transform: scale(0.73, 0.73);
+		zoom: 0.73;
+		zoom: 73%;
+		top: 0px;
 	}
 	.bp-aboutmyself {
 		width: 100%;
