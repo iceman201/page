@@ -91,14 +91,13 @@ a:hover {
         font-weight: bold;
 }
 .bp-cvpage {
-
-  align-items: center;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 66%;
-  text-align: center;
-  transform: translate(-50%, -50%)
+	align-items: center;
+	position: relative;
+	top: 50px;
+	left: 16%;
+	height: 100%;
+	width: 66%;
+	text-align: center;
 }
 
 /* Blueprint header */
@@ -352,7 +351,19 @@ a:hover {
     -moz-transform: scale(0.5, 0.5);
     zoom: 0.5;
     zoom: 50%;
+
 	}
+  
+  .bp-cvpage .main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    font-size: 200px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%, -50%);
+  }
 	.tabPage {
 		zoom: 80%;
 	}
