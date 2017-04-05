@@ -354,16 +354,6 @@ a:hover {
 
 	}
   
-  .bp-cvpage .main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    font-size: 200px;
-    color: white;
-    font-family: 'Lobster', cursive;
-    transform: translate(-50%, -50%);
-  }
 	.tabPage {
 		zoom: 80%;
 	}
