@@ -1,0 +1,367 @@
+@media (max-width: 720px) {
+  .section__title {
+    font-size: 28px;
+  }
+  .section__title:before {
+    top: 3.25rem;
+  }
+}
+@media (max-width: 720px) {
+  .section p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+   #one {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+}
+@media (max-width: 720px) {
+  .logo {
+    top: 110px;
+    right: 50%;
+    margin-right: -20px;
+  }
+}
+/*iPhone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+ .bp-header {
+   padding: 50px 20px 1em;
+   width: 90%;
+   zoom: 70%;
+ }
+ .bp-main {
+   zoom: 59%;
+ }
+ .section__wrapper {
+   top: 5rem !important;
+ }
+ .section__wrapper_two {
+   top: 5rem !important;
+ }
+ .bp-cvpage {
+   padding: 56rem 20px 0em;
+    width: 100%;
+    top: 0px;
+    -moz-transform: scale(0.5, 0.5);
+    zoom: 0.5;
+    zoom: 50%;
+
+ }
+
+ .tabPage {
+   zoom: 80%;
+ }
+ .bp-aboutmyself {
+   width: 100%;
+   top: 33rem;
+   -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+   zoom: 0.8; /* Other non-webkit browsers */
+   zoom: 80%; /* Webkit browsers */
+ }
+ .bp-header__title {
+   font-size: 1.8em;
+ }
+ .showcase-paragraph {
+   width: 100% !important;
+ }
+ .ocean {
+   padding-top: 100%;
+   margin-bottom: -207%;
+ }
+ .section__img {
+   max-height: 190px !important;
+ }
+ #holder .button {
+    zoom: 75%;
+ }
+ #holder{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   width: 258px;
+   margin: 0 auto;
+   position: relative;
+ }
+}
+
+/*iPhone6*/
+@media screen and (device-aspect-ratio: 375/667) {
+ .bp-header {
+   padding: 50px 20px 1em;
+   width: 90%;
+ }
+ .bp-main{
+   zoom:69%;
+ }
+ .bp-cvpage {
+   padding: 16rem 20px 1em;
+    width: 98%;
+    -moz-transform: scale(0.7, 0.7);
+    zoom: 0.7;
+    zoom: 70%;
+ }
+ .bp-aboutmyself {
+   width: 100%;
+    top: 35rem;
+ }
+ .bp-header__title {
+   font-size: 1.8em;
+ }
+ .showcase-paragraph {
+   width: 100% !important;
+ }
+ .ocean {
+   padding-top: 100%;
+    margin-bottom: -122%;
+ }
+ .section__img {
+   max-height: 190px !important;
+ }
+
+ #holder{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   width: 258px;
+   margin: 0 auto;
+   position: relative;
+ }
+
+}
+
+/*iPhone6 Plus*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+ .bp-header {
+   padding: 50px 20px 1em;
+   width: 90%;
+ }
+ .bp-main{
+   zoom:76%;
+ }
+ .bp-cvpage {
+   padding: 93rem 0px 3em;
+   width: 90%;
+   -moz-transform: scale(0.73, 0.73);
+   zoom: 0.73;
+   zoom: 73%;
+   top: 0px;
+ }
+ .bp-aboutmyself {
+   width: 100%;
+    top: 30rem;
+ }
+ .bp-header__title {
+   font-size: 1.8em;
+ }
+ .showcase-paragraph {
+   width: 100% !important;
+ }
+ .ocean {
+   padding-top: 100%;
+    margin-bottom: -120%;
+ }
+ .section__img {
+   max-height: 190px !important;
+ }
+
+ #holder{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   width: 258px;
+   margin: 0 auto;
+   position: relative;
+ }
+}
+
+/*Samsung S7 & S7Edge*/
+@media screen and (device-width: 360px) and (device-height: 640px) {
+ .bp-header {
+   padding: 50px 20px 1em;
+   width: 90%;
+ }
+ .bp-main{
+   zoom:67%;
+ }
+ .tabPage {
+    zoom: 80%;
+ }
+ .section__wrapper {
+   top: 5rem !important;
+ }
+ .bp-cvpage {
+   padding: 15rem 20px 1em;
+    width: 98%;
+    -moz-transform: scale(0.7, 0.7);
+    zoom: 0.7;
+    zoom: 70%;
+ }
+ .bp-aboutmyself {
+   width: 100%;
+    top: 30rem;
+    zoom: 80%;
+ }
+ .bp-header__title {
+   font-size: 1.8em;
+ }
+ .showcase-paragraph {
+   width: 100% !important;
+ }
+ .ocean {
+   padding-top: 100%;
+    margin-bottom: -145%;
+ }
+ .section__img {
+   max-height: 190px !important;
+ }
+
+ #holder{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   width: 258px;
+   margin: 0 auto;
+   position: relative;
+ }
+}
+/*iPad Pro*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+ .bp-cvpage {
+   height: 100%;
+    top: 53%;
+ }
+}
+@media (max-width: 850px) {
+  .nav__label {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) {
+  .nav__label {
+    display: none;
+  }
+  .nav__thumb {
+    height: 60px;
+  }
+  .nav__thumb:before {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 850px) {
+  .section-padding {
+    padding: 80px 15% 40px 10%;
+  }
+}
+@media (max-width: 450px) {
+  .section-padding {
+    padding: 40px 10% 20px 5%;
+  }
+}
+
+@media (max-width: 850px) {
+  .profile {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile h1 {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .profile h1 {
+    font-size: 1.8em;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile .picture-resume-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 1500px) {
+  .profile .picture-resume img {
+    width: 130px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile .picture-resume img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 1500px) {
+  .profile .picture-resume {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile .picture-resume {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .profile .picture-resume {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile .contact-info {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 450px) {
+  .profile .contact-info {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile .contact-presentation {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 850px) {
+  .experience {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .experience .company-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .experience .job-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .section-wrapper {
+    width: 100%;
+  }
+}
