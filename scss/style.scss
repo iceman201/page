@@ -1,15 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
 $profileBg:#fff;
 $skillsBg:#3d3e42;
 $profileColor:#9099a0;
-$skillsColor:#9099a0; 
+$skillsColor:#9099a0;
 $linkColor:#66cc99;
 $boldColor:#4a4e51;
 $time:0.6s;
 
- 
+
 @mixin breakpoint($point) {
   @if $point == papa-bear {
     @media (max-width: 1500px)  { @content; }
@@ -54,7 +54,7 @@ a{color:$linkColor; text-decoration:none;}
 
 .container {
   min-height:600px;
-} 
+}
 
 .profile {
   background:$profileBg;
@@ -73,14 +73,14 @@ a{color:$linkColor; text-decoration:none;}
     color:$boldColor;
     text-transform:uppercase;
     line-height:1em;
-    padding-top:40px; 
+    padding-top:40px;
     @include breakpoint(mama-bear) {
        padding-top:20px;
     }
     @include breakpoint(baby-bear) {
-      font-size:1.8em;  
+      font-size:1.8em;
       padding-top:20px;
-    } 
+    }
   }
   li {
       margin-bottom:10px;
@@ -129,13 +129,13 @@ a{color:$linkColor; text-decoration:none;}
       width:200px;
       height:200px;
     }
-     @include breakpoint(baby-bear) { width:180px;height:180px; } 
+     @include breakpoint(baby-bear) { width:180px;height:180px; }
   }
   .contact-info{
     margin-top:100px;
     font-weight:300;
-    @include breakpoint(mama-bear) {margin-top:70px; } 
-    @include breakpoint(baby-bear) { margin-top:50px; } 
+    @include breakpoint(mama-bear) {margin-top:70px; }
+    @include breakpoint(baby-bear) { margin-top:50px; }
   }
   .list-titles {
     float:left;
@@ -155,9 +155,9 @@ a{color:$linkColor; text-decoration:none;}
     font-weight:300;
     margin-top:100px;
     margin-bottom:100px;
-    @include breakpoint(mama-bear) {margin-top:70px;margin-bottom:70px; } 
-    @include breakpoint(brother-bear) {margin-top:50px;margin-bottom:50px; } 
-    
+    @include breakpoint(mama-bear) {margin-top:70px;margin-bottom:70px; }
+    @include breakpoint(brother-bear) {margin-top:50px;margin-bottom:50px; }
+
   }
   svg {
     width:100%;
@@ -181,7 +181,7 @@ a{color:$linkColor; text-decoration:none;}
   font-weight:300;
   min-height:100%;
   min-height:100vh;
-  @include breakpoint(brother-bear) { width: 100%; } 
+  @include breakpoint(brother-bear) { width: 100%; }
   h3.experience-title {
     color:$linkColor;
     text-align:left;
@@ -196,7 +196,7 @@ a{color:$linkColor; text-decoration:none;}
     text-align:left;
     padding-right:5%;
     margin-bottom:60px;
-    @include breakpoint(baby-bear) {width:100%; margin-bottom:20px;} 
+    @include breakpoint(baby-bear) {width:100%; margin-bottom:20px;}
   }
   .job-wrapper {
     width:70%;
@@ -204,7 +204,7 @@ a{color:$linkColor; text-decoration:none;}
     text-align:left;
     padding-right:5%;
     margin-bottom:60px;
-    @include breakpoint(baby-bear) {width:100%;margin-bottom:40px;} 
+    @include breakpoint(baby-bear) {width:100%;margin-bottom:40px;}
   }
   .experience-title {
       color:white;
@@ -226,7 +226,7 @@ a{color:$linkColor; text-decoration:none;}
   font-weight:300;
   margin-bottom:20px;
   @include breakpoint(baby-bear) {width:100%;}
-  &:nth-child(3){ 
+  &:nth-child(3){
     padding-right:8%;
   }
   h3.section-title {
@@ -257,20 +257,20 @@ a{color:$linkColor; text-decoration:none;}
       bottom:0;
     }
     &:nth-child(1)::before {width:80%;animation: skill_1 $time ease;}
-    &:nth-child(2)::before {width:90%; animation: skill_2 $time ease;} 
+    &:nth-child(2)::before {width:90%; animation: skill_2 $time ease;}
     &:nth-child(3)::before {width:50%;animation: skill_3 $time ease;}
     &:nth-child(4)::before {width:60%;animation: skill_4 $time ease;}
     &:nth-child(5)::before {width:70%;animation: skill_5 $time ease;}
     &:nth-child(6)::before {width:70%;animation: skill_6 $time ease;}
     &:nth-child(7)::before {width:70%;animation: skill_6 $time ease;}
   }
-  
+
 }
 
 @keyframes skill_1 {from {width:0%;}to {width:80%;}}
 @keyframes skill_2 {from {width:0%;}to {width:90%;}}
 @keyframes skill_3 {from {width:0%;}to {width:50%;}}
 @keyframes skill_4 {from {width:0%;}to {width:60%;}}
-@keyframes skill_5 {from {width:0%;}to {width:70%;}}  
+@keyframes skill_5 {from {width:0%;}to {width:70%;}}
 @keyframes skill_6 {from {width:0%;}to {width:70%;}}
 @keyframes skill_7 {from {width:0%;}to {width:70%;}}
