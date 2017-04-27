@@ -395,7 +395,7 @@ a:hover {
  .nav__label {
 	 position: absolute;
 	 top: 90%;
-	 left: 55%;
+	 left: 50%;
 	 height: 100%;
    -webkit-transform: translate(-50%, -50%);
            transform: translate(-50%, -50%);
@@ -403,6 +403,16 @@ a:hover {
    letter-spacing: 2px;
    color: #e6e6e6;
    margin: 0;
+ }
+ .nav__label .label-field {
+	 padding-top: 16px;
+	 width: 100%;
+	 height: 100%;
+ }
+ .nav__label .label-field span {
+	 position: relative;
+	 bottom: 18%;
+	 right: 10px;
  }
 
 
@@ -489,7 +499,7 @@ max-width: 100%;
 
 
 .wrapper {
-
+  padding-top: 50px;
   overflow:hidden;
 }
 
@@ -501,7 +511,7 @@ max-width: 100%;
 
     float: left;
     margin-right: 20px;
-    width: 600px;
+    width: 450px;
 
 }
 #one img{
@@ -509,10 +519,9 @@ max-width: 100%;
 
 }
 #two {
-    overflow: hidden;
-    margin: 10px;
-    min-height: 170px;
-    margin-top: 10%;
+		overflow: hidden;
+		margin: 10px;
+		min-height: 210px;
 }
 #two p {
     text-align: left;
@@ -542,6 +551,7 @@ max-width: 100%;
  .section p {
    margin: 0 0 25px 0;
    font-size: 18px;
+	 text-align: left;
    color: #fff;
    opacity: 0.55;
  }
@@ -556,13 +566,13 @@ max-width: 100%;
    background: #3F535F;
  }
  .color3 {
-   background: #3498db;
+   background: #4D59AB;
  }
  .color4 {
    background: #9b59b6;
  }
  .color5 {
-   background: #1bc885;
+   background: #D15332;
  }
  .color6 {
    background: #dfb816;
