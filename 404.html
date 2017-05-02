@@ -1,1 +1,181 @@
-haha
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Opps - Liguo Jiao</title>
+	<meta name="description" content="Liguo Jiao, an iOS Developer" />
+	<meta name="keywords" content="iOS, Liguo, Jiao, New Zealand, Wellington, Christchurch, Auckland, iOS Developer, Swift, Swift Developer" />
+	<meta name="author" content="Liguo Jiao" />
+	<link rel="shortcut icon" href="ico/swift.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/404-main.css">
+</head>
+
+<body>
+  <div class="root">
+    <main class="computerContainer">
+      <section class="screenContainer">
+        <div class="screenFrame">
+          <div class="screen">
+            <div class="terminal">
+              <div class="outputContainer">
+                <!-- output appears here-->
+              </div>
+              <div class="currentLine">
+                <span class="prompt">$</span>
+                <div class="inputContainer">
+                  <input class="input" type="text" autofocus/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bodyDecor">
+        <div class="floppyDriveContainer">
+          <div class="floppyDrive">
+            <div class="floppyShade"></div>
+            <div class="floppyShadeDarker"></div>
+            <div class="floppySlot"></div>
+          </div>
+        </div>
+        <div class="logoContainer">
+          <div class="logo"></div>
+        </div>
+      </section>
+      <section class="bottomDecor">
+        <div class="bottomButton"></div>
+      </section>
+    </main>
+  </div>
+</body>
+
+<script>
+  const ENTER_KEY = 13
+  const fileSystem = {
+  'help.md': `
+  Supported commands are:
+  - ls: List directory contents
+  - cat: Displays a filename.
+  - clear: Clear the terminal screen.
+  - back: Back to main page.`,
+  'run.server':`Boom💥`,
+  'MyDatabase.sql':`oh man this is 128k Macintosh. 😝`,
+  'Hack_me.cob': `NO WAY! I wount let you `,
+  }
+
+  const intro = {
+    'error.f':`Welcome to my Macintosh 128K server terminal!
+
+
+    404 - the page you looking for does not exist.
+
+
+Yes, it's correct my website is hosting on Macintosh 128k.`,
+  }
+
+  new class Terminal {
+  constructor() {
+    this.onKeyDown = this.onKeyDown.bind(this)
+    this.clearHistory = this.clearHistory.bind(this)
+    this.addHistory = this.addHistory.bind(this)
+    this.listFiles = this.listFiles.bind(this)
+    this.catFile = this.catFile.bind(this)
+    this.backMain = this.backMain.bind(this)
+    this.scrollToBottom = this.scrollToBottom.bind(this)
+
+    this.history = []
+    this.elements = {
+      input: document.querySelector('.input'),
+      terminal: document.querySelector('.terminal'),
+      outputContainer: document.querySelector('.outputContainer')
+    }
+    this.prompt = '$'
+    this.commands = {
+      clear: this.clearHistory,
+      back: this.backMain,
+      ls: this.listFiles,
+      cat: this.catFile,
+    }
+    this.elements.input.addEventListener('keydown', this.onKeyDown)
+    this.catFile('error.f')
+    this.catFile('help.md')
+  }
+
+  clearHistory() {
+    this.history = []
+    this.elements.outputContainer.innerHTML = ''
+  }
+
+  backMain() {
+    window.location.replace('https://liguo.jiao.co.nz');
+  }
+  catFile(fileName) {
+    if (fileName == "error.f")
+      this.addHistory(intro[fileName])
+    else
+      if (fileName in fileSystem)
+        this.addHistory(fileSystem[fileName])
+      else
+        this.addHistory(`cat: ${fileName}: No such file or directory`)
+  }
+
+  scrollToBottom() {
+    this.elements.terminal.scrollTop = this.elements.terminal.scrollHeight
+  }
+
+  addHistory(output) {
+    this.history.push(output)
+
+    var outputText = document.createTextNode(output)
+    let outputEl = document.createElement('pre')
+
+    outputEl.classList.add('output')
+    outputEl.appendChild(outputText)
+
+    this.elements.outputContainer.appendChild(outputEl)
+  }
+
+  listFiles(dir) {
+    const output = Object.keys(fileSystem).reduce((acc, curr, index) => {
+      const deliminator = index % 3 === 0 && index !== 0 ? '\n' : '\t'
+      return `${acc}${curr}${deliminator}`
+    }, '')
+
+    this.addHistory(output)
+  }
+
+  clearInput() { this.elements.input.value = '' }
+
+  onKeyDown(e) {
+    // Only respond to Enter key presses
+    if (e.keyCode !== ENTER_KEY) return
+
+    const inputText = this.elements.input.value
+    const inputArray = inputText.split(' ')
+    const inputCommand = inputArray[0]
+    const arg = inputArray[1]
+
+    this.addHistory(`${this.prompt} ${inputText}`)
+    this.clearInput()
+
+    /* If the command line was empty, stop.
+       We don't want to interpret it as a command.
+       It's fine to feed a lint to the terminal */
+    if (inputCommand === '') return
+
+    const command = this.commands[inputCommand]
+
+    if (command)
+      command(arg)
+    else
+      this.addHistory(`sh: command not found: ${inputCommand}`)
+
+    this.scrollToBottom()
+  }
+
+  }
+</script>
