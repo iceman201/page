@@ -64,14 +64,14 @@
   - back: Back to main page.`,
   'run.server':`Boom💥`,
   'MyDatabase.sql':`oh man this is 128k Macintosh. 😝`,
-  'Hack_me.cob': `NO WAY! I wount let you `,
+  'HackMyServer.cob': `NO WAY! I wont let you hack my Macintosh!!!`,
   }
 
   const intro = {
-    'error.f':`Welcome to my Macintosh 128K server terminal!
+    '404-intro':`Welcome to my Macintosh 128K server terminal!
 
 
-    404 - the page you looking for does not exist.
+    ERROR: 404 - the page you looking for does not exist.
 
 
 Yes, it's correct my website is hosting on Macintosh 128k.`,
@@ -101,7 +101,7 @@ Yes, it's correct my website is hosting on Macintosh 128k.`,
       cat: this.catFile,
     }
     this.elements.input.addEventListener('keydown', this.onKeyDown)
-    this.catFile('error.f')
+    this.catFile('404-intro')
     this.catFile('help.md')
   }
 
@@ -114,7 +114,7 @@ Yes, it's correct my website is hosting on Macintosh 128k.`,
     window.location.replace('https://liguo.jiao.co.nz');
   }
   catFile(fileName) {
-    if (fileName == "error.f")
+    if (fileName == "404-intro")
       this.addHistory(intro[fileName])
     else
       if (fileName in fileSystem)
