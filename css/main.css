@@ -413,7 +413,7 @@ a:hover {
  .nav__label .label-field span {
 	 position: relative;
 	 bottom: 18%;
-	 padding-left: 100px;
+	 padding-left: 90px;
  }
 
 
@@ -576,7 +576,7 @@ max-width: 100%;
    background: #D15332;
  }
  .color6 {
-   background: #dfb816;
+   background: #009688;
  }
  .logo {
    position: fixed;
