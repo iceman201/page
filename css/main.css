@@ -396,6 +396,7 @@ a:hover {
 	 position: absolute;
 	 top: 90%;
 	 left: 50%;
+	 width: 100%;
 	 height: 100%;
    -webkit-transform: translate(-50%, -50%);
            transform: translate(-50%, -50%);
@@ -412,7 +413,7 @@ a:hover {
  .nav__label .label-field span {
 	 position: relative;
 	 bottom: 18%;
-	 right: 10px;
+	 padding-left: 90px;
  }
 
 
@@ -575,7 +576,7 @@ max-width: 100%;
    background: #D15332;
  }
  .color6 {
-   background: #dfb816;
+   background: #009688;
  }
  .logo {
    position: fixed;
