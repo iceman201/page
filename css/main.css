@@ -348,11 +348,14 @@ a:hover {
 }
 
 .project section {
-  width:400%;  
+  width:400%;
 }
 
 .project .pages {
   position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
 }
 
 .project #p1 {
@@ -375,7 +378,7 @@ a:hover {
 }
 
 .project ul {
- position: fixed; 
+ position: fixed;
  z-index: 1;
 }
 .project #t1:target .pages#p1 {
@@ -391,13 +394,13 @@ a:hover {
     transform: translateX(-290%);
 }
 
-.project #t2:target .pages#p1, 
+.project #t2:target .pages#p1,
 #t3:target .pages#p1,
 #t4:target .pages#p1 {
   background: black;
 }
 
-.project #t2:target .pages#p1 .icon, 
+.project #t2:target .pages#p1 .icon,
 #t3:target .pages#p1 .icon,
 #t4:target .pages#p1 .icon {
   -webkit-filter: blur(3px);
@@ -421,7 +424,7 @@ a:hover {
 .project #t2:target ul .icon,
 #t3:target ul .icon,
 #t4:target ul .icon {
-  transform: scale(.6); 
+  transform: scale(.6);
   transition-delay: .25s;
 }
 
