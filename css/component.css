@@ -194,7 +194,13 @@ html.js,
 }
 
 .js .project img {
-	max-width: 100%;
+	max-width: 75%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .js .project a {
@@ -281,13 +287,13 @@ html.js,
 }
 .js .project #timeline .timeline-item .timeline-icon {
   background: #ee4d4d;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   top: 0;
   left: 50%;
   overflow: hidden;
-  margin-left: -23px;
+  margin-left: -28px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
