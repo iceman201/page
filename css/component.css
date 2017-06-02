@@ -212,6 +212,10 @@ html.js,
 	margin: 0 auto;
 	padding-top: 50px;
 }
+.js .project .container h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .js .project .project-name {
 	text-align: center;
 	color: white;
@@ -301,8 +305,8 @@ html.js,
 }
 .js .project #timeline .timeline-item .timeline-icon svg {
   position: relative;
-  top: 14px;
-  left: 14px;
+	top: 10px;
+	left: 9px;
 }
 .js .project #timeline .timeline-item .timeline-content {
   width: 45%;
@@ -332,6 +336,32 @@ html.js,
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
+.js .project #timeline .timeline-item .timeline-content h2 img{
+	float: left;
+  position: relative;
+  width: 38px;
+  margin: -10px 15px 0px -2px;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+
+.js .project #timeline .timeline-item .timeline-content h3 {
+	margin-bottom: 0px;
+}
+
+.js .project #timeline .timeline-item .timeline-content h5 {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.js .project #timeline .timeline-item .timeline-content p {
+	margin-top: 6px;
+}
+
+
 .js .project #timeline .timeline-item .timeline-content:before {
   content: '';
   position: absolute;
@@ -392,6 +422,18 @@ html.js,
     padding: 0px;
     width: 90%;
   }
+	.js .project #timeline .timeline-item .timeline-content h2 img{
+		float: right;
+		position: relative;
+		width: 36px;
+		top: 10px;
+		margin: -20px 0px 0px -19px;
+		-webkit-border-radius: 3px 3px 0 0;
+		-moz-border-radius: 3px 3px 0 0;
+		-ms-border-radius: 3px 3px 0 0;
+		border-radius: 3px 3px 0 0;
+	}
+
   .js .project #timeline:before {
     left: 0;
   }
