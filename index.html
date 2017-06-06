@@ -51,12 +51,22 @@
 			<a class="link link--social link--faded" href="https://www.hackerrank.com/iceman201"><i class="fa fa-header"></i><span class="text-hidden">HackerRank</span></a>
 
 		</div>
-	</nav>
+	</nav>	
+
 	<!-- /navigation-->
 	<!-- pages stack -->
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
+			<div class="language-nav">
+				<nav>
+				  <ul class="drop-down closed">
+				    <li><a href="#" class="nav-button">English</a></li>
+				    <li><a href="#">Japanese</a></li>
+				    <li><a href="#">Chinese</a></li>
+				  </ul>
+				</nav>
+			</div>
 
 			<!-- Blueprint header -->
 			<header class="bp-header cf bp-main">
@@ -632,6 +642,18 @@
 			  ga('create', 'UA-84796138-1', 'auto');
 			  ga('set', 'userId', {{USER_ID}});
 			  ga('send', 'pageview');
+		</script>
+
+		<script>
+			$(function() {
+			  // Bind Click event to the drop down navigation button
+			  $(".nav-button").click(function() {
+			    /*  Toggle the CSS closed class which reduces the height of the UL thus 
+			        hiding all LI apart from the first */
+			    $(this).parent().parent().toggleClass("closed");
+			  });
+
+			});
 		</script>
 </body>
 

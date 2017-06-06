@@ -73,6 +73,52 @@ html.js,
 	transform: translate3d(0, 0, 0);
 }
 
+
+.language-nav nav .drop-down {
+  list-style: none; 
+  overflow: hidden; /* When ul height is reduced, ensure overflowing li are not shown */
+  height: 145px; /* 172px = (38 (li) + 5 (li border)) * 4 (number of li) */
+  background-color: #34495e;
+  font-family: Arial;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: height 0.3s ease;
+          transition: height 0.3s ease;
+}
+
+.language-nav nav .drop-down.closed {
+  /*  When toggled via jQuery this class will reduce the height of the ul which inconjuction
+      with overflow: hidden set on the ul will hide all list items apart from the first */
+  /* current li height 38px + 5px border */
+  height: 43px;
+}
+
+.language-nav nav .drop-down li {
+  border-bottom: 5px solid #2c3e50;
+}
+
+.language-nav nav .drop-down li a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px; /* Larger touch target area */
+}
+
+.language-nav nav .drop-down li:first-child a:after {
+  content: "\25BC";
+  float: right;
+  margin-left: -30px; /* Excessive -margin to bring link text back to center */
+  margin-right: 5px;
+}
+
+
+
+
 .link {
 	font-size: 0.85em;
 	font-weight: bold;
@@ -623,6 +669,14 @@ html.js,
 		right: 10px;
 		left: auto;
 	}
+
+	.language-nav nav .drop-down {
+		float: left;
+	    margin-left: 10px;
+	    margin-top: 12px;
+	    width: 110px;
+	}
+
 	.info {
 		font-size: 0.85em;
 	}
