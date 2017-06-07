@@ -28,10 +28,10 @@
 	<![endif]-->
 	<!-- navigation -->
 	<nav class="pages-nav">
-		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-aboutme">About myself</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-mydesign">Projects</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-cv">Curriculum Vitae</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home" text_id = "home">Home</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-aboutme" text_id = "aboutMyself">About myself</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-mydesign" text_id = "projects">Projects</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-cv" text_id = "curriculumVitae">Curriculum Vitae</a></div>
 
 		<div class="pages-nav__item pages-nav__item--social">
 			<div id="holder">
@@ -61,9 +61,10 @@
 			<div class="language-nav">
 				<nav>
 				  <ul class="drop-down closed">
-				    <li><a href="javascript:populate_textfields(JSONtext, 'en');" class="nav-button">English</a></li>
-				    <li><a href="javascript:populate_textfields(JSONtext, 'jp');">Japanese</a></li>
-				    <li><a href="javascript:populate_textfields(JSONtext, 'ch');">Chinese</a></li>
+				    <li><a href="#" class="nav-button">🇳🇿 English</a></li>
+						<li><a href="javascript:populate_textfields(JSONtext, 'en');" class="nav-option">🇳🇿 English</a></li>
+				    <li><a href="javascript:populate_textfields(JSONtext, 'jp');" class="nav-option">🇯🇵 日本語</a></li>
+				    <li><a href="javascript:populate_textfields(JSONtext, 'ch');" class="nav-option">🇨🇳 中文</a></li>
 				  </ul>
 				</nav>
 			</div>
@@ -73,13 +74,13 @@
 
 				<img class="img-circle img-responsive center-block" src="images/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 
-				<h1 class="bp-header__title" text_id = "hello">Kia ora</h1>
+				<h1 class="bp-header__title" text_id = "kiaOra">Kia ora</h1>
 				<div id="first-strings">
 					<span class="element"></span>
 				</div>
 
-				<span3>Software Engineer</span3> | <span2>iOS Developer</span2> | <span3>UI/UX Designer</span3> | <span2>Rock Climber</span2></p>
-					<p><span>Wellington, New Zealand</span></p>
+				<span3 text_id = "softwareEngineer">Software Engineer</span3> | <span2 text_id = "iOSDeveloper">iOS Developer</span2> | <span3 text_id = "uiuxDesigner">UI/UX Designer</span3> | <span2 text_id = "rockClimber">Rock Climber</span2></p>
+					<p><span text_id = "address">Wellington, New Zealand</span></p>
 
 			</header>
 		</div>
@@ -87,7 +88,7 @@
 		<!-- /page -->
 		<div class="page" id="page-aboutme">
 			<div class="bp-header cf bp-aboutmyself">
-				<h1 class="bp-header__title">About myself</h1>
+				<h1 class="bp-header__title" text_id = "aboutMyself">About myself</h1>
 				<p class="showcase-paragraph" >
 					My name is Liguo Jiao a.k.a iceman201. 26 years old graduated from University of Canterbury, Bachelor of Science in Computer Science. Living in Wellington, New Zealand. I’m an iOS developer with 3 years experience in Swift. I have been responsible for producing both technical and user interface designs. I have been contributed to <a href="https://itunes.apple.com/nz/app/thundermaps-hazard-awareness/id1028748114?mt=8"><span>ThunderMaps</span></a>, <a href="https://itunes.apple.com/nz/app/sidewinder-cable-installation/id1106712834?mt=8"><span2>Sidewinder</span2></a> and <a href="https://itunes.apple.com/nz/app/scadafarm/id582234844?mt=8"><span1>SCADAFarm</span1></a> iOS Application, and get involved with build up <a href="https://itunes.apple.com/us/app/refitplanner/id1087560926?mt=8"><span3>RefitPlaner</span3></a> iOS Application. Meanwhile, I'm also running an on-going self-project with couple of friends named <span>Gymme Dairy</span> and <a href="https://itunes.apple.com/nz/app/pokecp/id1156074249?mt=8"><span>PokeCP</span></a> iOS Application.
 				</p>
@@ -105,7 +106,7 @@
 		<div class="page project" id="page-mydesign">
 			<div class="project">
 				<div class="container">
-					<h1 class="project-name">Projects</h1>
+					<h1 class="project-name" text_id = "projects">Projects</h1>
 						<div id="timeline">
 							<div class="timeline-item">
 								<div class="timeline-icon">
@@ -328,7 +329,7 @@
 							<div class="timeline-content">
 								<h2>Routing Information Protocol Simulation</h2>
 								<h3 class="project-card-subtitle">2014</h3>
-								<h5 class="project-card-subtitle">University Project</h5>
+								<h5 class="project-card-subtitle" text_id = "universityProject">University Project</h5>
 							<p>
 								It implemented a "routing demon" as a normal userspace program under Linux. Instead of sending its routing packets over real network interfaces, the routing demon will communicate with its peer demons (which run in parallel on the same machine) through local sockets.1 Your program should be a text mode program, no credit will be given for providing a graphical user interface.
 							</p>
@@ -346,7 +347,7 @@
 							<div class="timeline-content right">
 								<h2>Defence the castle</h2>
 								<h3 class="project-card-subtitle">2014</h3>
-								<h5 class="project-card-subtitle">University Project</h5>
+								<h5 class="project-card-subtitle" text_id = "universityProject">University Project</h5>
 							<p>
 								A simple game project, included few 3D models such as a model of
 								castle, a model of cannon, a few alien robots, and a model of a spaceship.
@@ -364,7 +365,7 @@
 							<div class="timeline-content">
 								<h2>Ray Tracing</h2>
 								<h3 class="project-card-subtitle">2014</h3>
-								<h5 class="project-card-subtitle">University Project</h5>
+								<h5 class="project-card-subtitle" text_id = "universityProject">University Project</h5>
 							<p>
 								Module ray tracing of Cylinder, Cone, Plane, Sphere, Tetrahedron, Torus, and Vector.
 							</p>
@@ -383,7 +384,7 @@
 							<div class="timeline-content right">
 								<h2>Web Crawler</h2>
 								<h3 class="project-card-subtitle">2014</h3>
-								<h5 class="project-card-subtitle">University Project</h5>
+								<h5 class="project-card-subtitle" text_id = "universityProject">University Project</h5>
 							<p>
 								A concurrent web scraper which downloads all linked files for a particular website using a number of threads to provide efficient implementation.
 								(Multiple-thead practice)
@@ -403,17 +404,13 @@
 							<div class="timeline-content">
 								<h2>ATMega32 Game</h2>
 								<h3 class="project-card-subtitle">2013</h3>
-								<h5 class="project-card-subtitle">University Project</h5>
+								<h5 class="project-card-subtitle" text_id = "universityProject">University Project</h5>
 							<p>
 								One of my university projects, a simple pong game running on ATMega32 Embedded system board.
 							</p>
 							<a href="https://github.com/iceman201/ATmega_32/tree/master/assignment" class="btn">Github</a>
 							</div>
 						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
@@ -460,15 +457,15 @@
 				      <div class="clearfix"></div>
 				      <div class="contact-info clearfix">
 				      	<ul class="list-titles">
-				      		<li>Mail</li>
+				      		<li text_id = "email">Mail</li>
 									<li>GitHub</li>
-									<li>Location</li>
+									<li text_id = "location">Location</li>
 
 				      	</ul>
 				        <ul class="list-content">
 				        	<li><a href="mailto:liguo@jiao.co.nz">liguo@jiao.co.nz</a></li>
 									<li><a href="https://github.com/iceman201">@iceman201</a></li>
-				        	<li>Wellington<br>New Zealand</li>
+				        	<li text_id = "cvaddress">Wellington<br>New Zealand</li>
 				        </ul>
 				      </div>
 				      <div class="contact-presentation">
@@ -501,7 +498,7 @@
 
 					<section class="experience section-padding">
 						<div class="container">
-							<h3 class="experience-title">Experience</h3>
+							<h3 class="experience-title" text_id = "experience">Experience</h3>
 
 					    <div class="experience-wrapper">
 					    	<div class="company-wrapper clearfix">
@@ -523,7 +520,7 @@
 					      </div>
 
 					      <div class="company-wrapper clearfix">
-					    		<div class="experience-title"><a href="http://www.mckay.co.nz/"></a>McKay Ltd</div>
+					    		<div class="experience-title"><a href="http://www.mckay.co.nz/">McKay Ltd</a></div>
 					        <div class="time">Sep 2015 - Jan 2017</div>
 					    	</div>
 
@@ -650,9 +647,16 @@
 			  $(".nav-button").click(function() {
 			    /*  Toggle the CSS closed class which reduces the height of the UL thus
 			        hiding all LI apart from the first */
+
 			    $(this).parent().parent().toggleClass("closed");
 			  });
-
+			});
+			$(function() {
+				$(".nav-option").click(function() {
+					var newOption = $(this).html();
+					$(".nav-button").html(newOption);
+					$(this).parent().parent().toggleClass("closed");
+				});
 			});
 		</script>
 

@@ -1,8 +1,101 @@
 {
-  "hello_en" : "Kia Ora",
-	"hello_jp" : "Ciao",
-	"hello_ch" : "你好",
-	"hello_subtitle_en" : "I'm a text in English!",
-	"hello_subtitle_it" : "Sono un testo in Italiano",
-	"hello_subtitle_es" : "Soy un texto en Español"
+  "kiaOra_en" : "Kia Ora",
+	"kiaOra_jp" : "Ciao",
+	"kiaOra_ch" : "你好",
+
+  "softwareEngineer_en" : "Software Engineer",
+  "softwareEngineer_jp" : "Software Engineer",
+  "softwareEngineer_ch" : "软件工程师",
+
+  "iOSDeveloper_en" : "iOS Developer",
+  "iOSDeveloper_jp" : "iOS Developer",
+  "iOSDeveloper_ch" : "iOS 开发员",
+
+  "uiuxDesigner_en" : "UI/UX Designer",
+  "uiuxDesigner_jp" : "UI/UX Designer",
+  "uiuxDesigner_ch" : "UI/UX 设计师",
+
+  "rockClimber_en" : "Rock Climber",
+  "rockClimber_jp" : "Rock Climber",
+  "rockClimber_ch" : "攀岩爱好者",
+
+  "address_en" : "Wellington, New Zealand",
+  "address_jp" : "Wellington, New Zealand",
+  "address_ch" : "惠灵顿， 新西兰",
+
+  "wellington_en" : "Wellington",
+  "wellington_jp" : "Wellington",
+  "wellington_ch" : "惠灵顿",
+
+  "cvaddress_en" : "Wellington <br> New Zealand",
+  "cvaddress_jp" : "Wellington <br> New Zealand",
+  "cvaddress_ch" : "惠灵顿 <br> 新西兰",
+
+  "aboutMyself_en" : "About myself",
+  "aboutMyself_jp" : "About myself",
+  "aboutMyself_ch" : "关于我",
+
+  "projects_en" : "Projects",
+  "projects_jp" : "Projects",
+  "projects_ch" : "项目",
+
+  "home_en" : "Home",
+  "home_jp" : "Home",
+  "home_ch" : "主页",
+
+  "curriculumVitae_en" : "Curriculum Vitae",
+  "curriculumVitae_jp" : "Curriculum Vitae",
+  "curriculumVitae_ch" : "简历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "email_en" : "Mail",
+  "email_jp" : "Mail",
+  "email_ch" : "邮箱",
+
+  "location_en" : "Location",
+  "location_jp" : "Location",
+  "location_ch" : "位置",
+
+  "universityProject_en" : "University Project",
+  "universityProject_jp" : "University Project",
+  "universityProject_ch" : "大学项目",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "Experience",
+  "experience_ch" : "经验履历"
 }
