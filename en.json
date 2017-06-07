@@ -1,0 +1,8 @@
+{
+  "hello_en" : "Kia Ora",
+	"hello_jp" : "Ciao",
+	"hello_ch" : "你好",
+	"hello_subtitle_en" : "I'm a text in English!",
+	"hello_subtitle_it" : "Sono un testo in Italiano",
+	"hello_subtitle_es" : "Soy un texto en Español"
+}

@@ -51,7 +51,7 @@
 			<a class="link link--social link--faded" href="https://www.hackerrank.com/iceman201"><i class="fa fa-header"></i><span class="text-hidden">HackerRank</span></a>
 
 		</div>
-	</nav>	
+	</nav>
 
 	<!-- /navigation-->
 	<!-- pages stack -->
@@ -61,9 +61,9 @@
 			<div class="language-nav">
 				<nav>
 				  <ul class="drop-down closed">
-				    <li><a href="#" class="nav-button">English</a></li>
-				    <li><a href="#">Japanese</a></li>
-				    <li><a href="#">Chinese</a></li>
+				    <li><a href="javascript:populate_textfields(JSONtext, 'en');" class="nav-button">English</a></li>
+				    <li><a href="javascript:populate_textfields(JSONtext, 'jp');">Japanese</a></li>
+				    <li><a href="javascript:populate_textfields(JSONtext, 'ch');">Chinese</a></li>
 				  </ul>
 				</nav>
 			</div>
@@ -73,7 +73,7 @@
 
 				<img class="img-circle img-responsive center-block" src="images/self.png" width="200" height="200" class="mb-7 hero-image"></a>
 
-				<h1 class="bp-header__title">Kia ora</h1>
+				<h1 class="bp-header__title" text_id = "hello">Kia ora</h1>
 				<div id="first-strings">
 					<span class="element"></span>
 				</div>
@@ -648,11 +648,39 @@
 			$(function() {
 			  // Bind Click event to the drop down navigation button
 			  $(".nav-button").click(function() {
-			    /*  Toggle the CSS closed class which reduces the height of the UL thus 
+			    /*  Toggle the CSS closed class which reduces the height of the UL thus
 			        hiding all LI apart from the first */
 			    $(this).parent().parent().toggleClass("closed");
 			  });
 
+			});
+		</script>
+
+		<script>
+		var browser_language = navigator.language.substr(0,2);
+		var populate_textfields = function(jsdata, language) {
+		$("[text_id]").each (function (index) {
+			var string =  jsdata[$(this).attr ('text_id') + "_" + language];
+			if(string == undefined) {
+				// fallback to english
+				string =  jsdata[$(this).attr ('text_id') + "_en"];
+			}
+			// smooth language change
+			$(this).hide().html(string).fadeIn(1500);
+		});
+		console.log("language set to " + language);
+		}
+
+		// loads json text file, change this to your file called "text.json"
+		$.getJSON("en.json")
+		.done(function(data){
+			populate_textfields(data, browser_language);
+			return JSONtext = data;
+			})
+		.fail(function(jqxhr, textStatus, error){
+			// for debugging
+			console.log("error");
+			console.log(error + jqxhr + textStatus)
 			});
 		</script>
 </body>
