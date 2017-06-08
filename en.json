@@ -37,7 +37,7 @@
 
   "projects_en" : "Projects",
   "projects_jp" : "Projects",
-  "projects_ch" : "项目",
+  "projects_ch" : "项目经验",
 
   "home_en" : "Home",
   "home_jp" : "Home",
@@ -51,6 +51,10 @@
   "experience_jp" : "Experience",
   "experience_ch" : "经验履历",
 
+  "education_en" : "Education",
+  "education_jp" : "Experience",
+  "education_ch" : "教育经历",
+
   "email_en" : "Mail",
   "email_jp" : "Mail",
   "email_ch" : "邮箱",
@@ -63,13 +67,9 @@
   "universityProject_jp" : "University Project",
   "universityProject_ch" : "大学项目",
 
-  "experience_en" : "Experience",
-  "experience_jp" : "Experience",
-  "experience_ch" : "经验履历",
-
-  "experience_en" : "Experience",
-  "experience_jp" : "Experience",
-  "experience_ch" : "经验履历",
+  "details_en" : "Details",
+  "details_jp" : "Details",
+  "details_ch" : "查看详情",
 
   "experience_en" : "Experience",
   "experience_jp" : "Experience",
