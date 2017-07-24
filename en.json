@@ -21,15 +21,15 @@
 
   "address_en" : "Auckland, New Zealand",
   "address_jp" : "ウェリントン, ニュージランド",
-  "address_ch" : "惠灵顿， 新西兰",
+  "address_ch" : "奥克兰， 新西兰",
 
   "wellington_en" : "Wellington",
   "wellington_jp" : "ウエリントン",
   "wellington_ch" : "惠灵顿",
 
-  "cvaddress_en" : "Wellington <br> New Zealand",
+  "cvaddress_en" : "Auckland <br> New Zealand",
   "cvaddress_jp" : "ウェリントン <br> ニュージランド",
-  "cvaddress_ch" : "惠灵顿 <br> 新西兰",
+  "cvaddress_ch" : "奥克兰 <br> 新西兰",
 
   "aboutMyself_en" : "About myself",
   "aboutMyself_jp" : "自己紹介",
