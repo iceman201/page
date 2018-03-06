@@ -143,11 +143,13 @@ a {
 }
 
 .experience {
-  background: #3d3e42;
+  /* background: #3D3F50; */
+  background: #2224;
   width: 70%;
   float: left;
   position: relative;
   color: #9099a0;
+  text-shadow : 0 0 0;
   font-weight: 300;
   min-height: 100%;
   min-height: 100vh;
@@ -181,9 +183,14 @@ a {
   text-decoration: none;
 }
 
-.experience .experience-title {
+.experience
+.experience-title {
   color: white;
+  text-shadow : 0 0 0;
   margin-bottom: 15px;
+}
+.experience .time {
+  color: #b2dfee;
 }
 
 .section-padding {
