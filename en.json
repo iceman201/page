@@ -1,0 +1,101 @@
+{
+  "kiaOra_en" : "Kia Ora",
+	"kiaOra_jp" : "キオラ",
+	"kiaOra_ch" : "你好",
+
+  "softwareEngineer_en" : "Software Engineer",
+  "softwareEngineer_jp" : "ソフトウェアエンジニアr",
+  "softwareEngineer_ch" : "软件工程师",
+
+  "iOSDeveloper_en" : "iOS Developer",
+  "iOSDeveloper_jp" : "iOS 開発者",
+  "iOSDeveloper_ch" : "iOS 开发员",
+
+  "uiuxDesigner_en" : "UI/UX Designer",
+  "uiuxDesigner_jp" : "UI/UX でデサイナー",
+  "uiuxDesigner_ch" : "UI/UX 设计师",
+
+  "rockClimber_en" : "Rock Climber",
+  "rockClimber_jp" : "ロッククライマー",
+  "rockClimber_ch" : "攀岩爱好者",
+
+  "address_en" : "Auckland, New Zealand",
+  "address_jp" : "ウェリントン, ニュージランド",
+  "address_ch" : "奥克兰， 新西兰",
+
+  "wellington_en" : "Wellington",
+  "wellington_jp" : "ウエリントン",
+  "wellington_ch" : "惠灵顿",
+
+  "cvaddress_en" : "Auckland <br> New Zealand",
+  "cvaddress_jp" : "ウェリントン <br> ニュージランド",
+  "cvaddress_ch" : "奥克兰 <br> 新西兰",
+
+  "aboutMyself_en" : "About myself",
+  "aboutMyself_jp" : "自己紹介",
+  "aboutMyself_ch" : "关于我",
+
+  "projects_en" : "Projects",
+  "projects_jp" : "プロジェクト",
+  "projects_ch" : "项目经验",
+
+  "home_en" : "Home",
+  "home_jp" : "ホーム",
+  "home_ch" : "主页",
+
+  "curriculumVitae_en" : "Curriculum Vitae",
+  "curriculumVitae_jp" : "履歴書",
+  "curriculumVitae_ch" : "简历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "education_en" : "Education",
+  "education_jp" : "教育",
+  "education_ch" : "教育经历",
+
+  "email_en" : "Mail",
+  "email_jp" : "メール",
+  "email_ch" : "邮箱",
+
+  "location_en" : "Location",
+  "location_jp" : "位置",
+  "location_ch" : "位置",
+
+  "universityProject_en" : "University Project",
+  "universityProject_jp" : "大学のプロジェクト",
+  "universityProject_ch" : "大学项目",
+
+  "details_en" : "Details",
+  "details_jp" : "詳細",
+  "details_ch" : "查看详情",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历",
+
+  "experience_en" : "Experience",
+  "experience_jp" : "経験",
+  "experience_ch" : "经验履历"
+}
