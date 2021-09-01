@@ -50,7 +50,6 @@
     -moz-transform: scale(0.5, 0.5);
     zoom: 0.5;
     zoom: 50%;
-
  }
 
  .tabPage {
@@ -83,8 +82,8 @@
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
    -webkit-user-select: none;
-
-   width: 258px;
+   padding-bottom: 10px;
+   width: 100%;
    margin: 0 auto;
    position: relative;
  }
@@ -128,8 +127,8 @@
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
    -webkit-user-select: none;
-
-   width: 258px;
+   padding-bottom: 10px;
+   width: 100%;
    margin: 0 auto;
    position: relative;
  }
@@ -175,8 +174,8 @@
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
    -webkit-user-select: none;
-
-   width: 258px;
+   padding-bottom: 10px;
+   width: 100%;
    margin: 0 auto;
    position: relative;
  }
@@ -227,12 +226,66 @@
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
    -webkit-user-select: none;
-
-   width: 258px;
+   padding-bottom: 10px;
+   width: 100%;
    margin: 0 auto;
    position: relative;
  }
 }
+
+/* Samsung Galaxy Fold */
+@media screen and (max-width: 280px) {
+  .bp-header {
+    padding: 50px 20px 1em;
+    width: 90%;
+  }
+  .bp-main{
+    zoom:67%;
+  }
+  .tabPage {
+     zoom: 80%;
+  }
+  .section__wrapper {
+    top: 5rem !important;
+  }
+  .bp-cvpage {
+    padding: 15rem 20px 1em;
+     width: 98%;
+     -moz-transform: scale(0.7, 0.7);
+     zoom: 0.7;
+     zoom: 70%;
+  }
+  .bp-aboutmyself {
+    width: 100%;
+     top: 30rem;
+     zoom: 80%;
+  }
+  .bp-header__title {
+    font-size: 1.8em;
+  }
+  .showcase-paragraph {
+    width: 100% !important;
+  }
+  .ocean {
+    padding-top: 100%;
+     margin-bottom: -145%;
+  }
+  .section__img {
+    max-height: 190px !important;
+  }
+ 
+  #holder{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+ }
+
+
 /*iPad Pro*/
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
  .bp-cvpage {
