@@ -77,7 +77,7 @@ a:hover {
     }
 .bp-header span2
     {
-        color: #FFD623;
+        color: #e0af42;
         font-weight: bold;
     }
 .bp-header span3
@@ -212,7 +212,6 @@ a:hover {
 	text-transform: none;
 	color: #5c5edc;
 	-webkit-font-smoothing: antialiased;
-
 	speak: none;
 }
 
@@ -291,12 +290,12 @@ a:hover {
 
 }
 .button {
-  background: #303F9F;
+  background: #e0af50;
   overflow: hidden;
   text-align : center;
   transition : .2s;
   cursor : pointer;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 .btnTwo {
@@ -307,11 +306,12 @@ a:hover {
   padding-top: 2px;
   background : #121212;
   left : -250px;
-  transition : .3s;
+  transition : .5s;
 }
 .btnText {
-  color : white;
-  transition : .3s;
+  color : #1d1e21;
+  font-weight: bold;
+  transition : .5s;
 }
 .btnText2 {
   padding-top: 40px;
@@ -328,49 +328,43 @@ a:hover {
   box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
 }
 
-
-
 /*project tab view*/
-
-
  .flex .showcase {
-   width: 100%;
-   padding: 0px;
-   margin-top: -25px;
-   padding-top: 3rem;
+	width: 100%;
+   	padding: 0px;
+   	margin-top: -25px;
+   	padding-top: 3rem;
  }
  .showcase h2 {
-     font-size: 36px;
+    font-size: 36px;
  }
  .showcase h3 {
-     font-size: 20px;
-     font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
  }
 
 .showcase-paragraph {
-   margin: auto;
-   height: auto;
-   width: 85%;
-   text-align: left;
+   	margin: auto;
+   	height: auto;
+   	width: 85%;
+   	text-align: left;
 }
 .showcase-paragraph span {
-	 color: #FB8CA6;
-   font-weight: bold;
+	color: #FB8CA6;
+   	font-weight: bold;
 }
 .showcase-paragraph span1 {
-   color: #9DEC6E;
-   font-weight: bold;
+   	color: #9DEC6E;
+   	font-weight: bold;
 }
 .showcase-paragraph  span2 {
-   color: #FFC417;
-   font-weight: bold;
+   	color: #FFC417;
+   	font-weight: bold;
 }
 .showcase-paragraph span3 {
-   color: #82EAE6;
-   font-weight: bold;
+ 	color: #82EAE6;
+   	font-weight: bold;
 }
-
-
 
 html {
     overflow: scroll;
