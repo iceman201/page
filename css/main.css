@@ -103,21 +103,21 @@ a:hover {
 /* Blueprint header */
 
 .bp-header {
-
-  align-items: center;
-  position: absolute;
-  top: 50%;
+ 	align-items: center;
+ 	position: absolute;
+  	top: 50%;
 	width: 71%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%)
+  	left: 50%;
+  	text-align: center;
+  	transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
 }
 
 .bp-header__title {
 	font-size: 2.125em;
 	font-weight: 700;
 	line-height: 1.3;
-  text-align: center;
+  	text-align: center;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
@@ -278,19 +278,15 @@ a:hover {
 	background-color: #1D3136;
 }
 #holder{
-  -moz-user-select: -moz-none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-
-
-  width: 390px;
-  margin: 0 auto;
+	-user-select: none;
+	width: 360px;
+	margin: 0 auto;
 	margin-bottom: 20px;
-  position: relative;
-
+  	position: relative;
 }
+
 .button {
-  background: #e0af50;
+  background: #66CC99;
   overflow: hidden;
   text-align : center;
   transition : .2s;
@@ -376,5 +372,6 @@ html {
 }
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+	width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 }
