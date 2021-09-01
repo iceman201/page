@@ -25,8 +25,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Deno
-        # uses: denoland/setup-deno@v1
-        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
+        uses: denoland/setup-deno@v1
+#         uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
         with:
           deno-version: v1.x
 
@@ -35,7 +35,9 @@ jobs:
       #   run: deno fmt --check
 
       - name: Run linter
-        run: deno lint
+        run: |
+          deno lint --unstable -q ./index.html
+          deno lint --unstable -q ./404.html
 
-      - name: Run tests
-        run: deno test -A --unstable
+      # - name: Run tests
+      #   run: deno test -A --unstable
