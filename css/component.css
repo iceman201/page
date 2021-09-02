@@ -279,9 +279,7 @@ html.js,
 }
 
 .js .project header .logo {
-  /* color: #ee4d4d; */
   color: #66CC99;
-
   float: left;
   font-family: "Dosis", arial, tahoma, verdana;
   font-size: 22px;
@@ -490,7 +488,7 @@ html.js,
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #ee4d4d;
+    border-right: 7px solid #66CC99;
   }
   .js .project #timeline .timeline-item .timeline-icon {
     left: 0;
