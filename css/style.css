@@ -186,15 +186,25 @@ a {
 .experience
 .experience-title {
   color: white;
-  text-shadow : 0 0 0;
+  text-shadow: 2px 2px #0e0f0f;
   margin-bottom: 15px;
 }
 .experience .time {
   color: #b2dfee;
+  font-weight: 500;
+}
+
+.experience .department {
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px #0e0f0f;
+  font-weight: 300;
 }
 
 .experience .location {
-  color: #e0af42;  
+  color: #e0af42;
+  font-weight: 500;
+  text-shadow: 2px 2px #0e0f0f;
   line-height: 3;
 }
 
