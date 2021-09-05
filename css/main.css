@@ -36,11 +36,19 @@ hr {
 }
 
 /* Main styles */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 body {
-font-size: 18px;
-line-height: 36px;
-font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 300;
 	font-family: 'Helvetica', 'Lato', 'Segoe UI', Helvetica, sans-serif;
 	margin: 0;
 
