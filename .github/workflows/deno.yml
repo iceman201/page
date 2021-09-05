@@ -21,23 +21,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup repo
-        uses: actions/checkout@v2
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2.3.2
+    - name: HTML5 Validator
+      uses: Cyb3r-Jak3/html5validator-action@v0.6.1
+      with:
+        root: ./
+        log_level: INFO
+        blacklist: bower_components google3b93de3569df4ebd.html googled98412e986f33743.html 
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1
-#         uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
-        with:
-          deno-version: v1.x
-
-      # Uncomment this step to verify the use of 'deno fmt' on each commit.
-      # - name: Verify formatting
-      #   run: deno fmt --check
-
-      - name: Run linter
-        run: |
-          deno lint --unstable -q ./index.html
-          deno lint --unstable -q ./404.html
-
-      # - name: Run tests
-      #   run: deno test -A --unstable
+    - uses: actions/upload-artifact@v2
+      with:
+        name: log
+        path: log.log
