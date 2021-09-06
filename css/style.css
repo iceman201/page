@@ -49,10 +49,9 @@ a {
 }
 
 .profile {
-  /*background: #E0E0E0;*/
   width: 30%;
   float: left;
-  color: #f5fffa;
+  color: rgb(238, 233, 220);
 }
 
 .profile .name-wrapper {
@@ -149,7 +148,7 @@ a {
   width: 70%;
   float: left;
   position: relative;
-  color: #9099a0;
+  color: rgb(238, 233, 220);
   text-shadow : 0 0 0;
   font-weight: 300;
   min-height: 100%;

@@ -30,7 +30,7 @@
 /*iPhone 5*/
 @media screen and (device-aspect-ratio: 40/71) {
  .bp-header {
-   padding: 50px 20px 1em;
+   padding: 50px 0px 1em;
    width: 90%;
    zoom: 70%;
  }
@@ -57,10 +57,10 @@
  }
  .bp-aboutmyself {
    width: 100%;
-   top: 33rem;
-   -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-   zoom: 0.8; /* Other non-webkit browsers */
-   zoom: 80%; /* Webkit browsers */
+   padding: 5% 12% 1em;
+   -moz-transform: scale(0.75, 0.75); /* Moz-browsers */
+   zoom: 0.75; /* Other non-webkit browsers */
+   zoom: 75%; /* Webkit browsers */
  }
  .bp-header__title {
    font-size: 1.8em;
@@ -92,7 +92,7 @@
 /*iPhone6*/
 @media screen and (device-aspect-ratio: 375/667) {
  .bp-header {
-   padding: 50px 20px 1em;
+   padding: 50px 0px 1em;
    width: 90%;
  }
  .bp-main{
@@ -107,7 +107,7 @@
  }
  .bp-aboutmyself {
    width: 100%;
-    top: 35rem;
+   padding: 5% 12% 1em;
  }
  .bp-header__title {
    font-size: 1.8em;
@@ -117,7 +117,7 @@
  }
  .ocean {
    padding-top: 100%;
-    margin-bottom: -122%;
+    margin-bottom: -80%;
  }
  .section__img {
    max-height: 190px !important;
@@ -132,13 +132,12 @@
    margin: 0 auto;
    position: relative;
  }
-
 }
 
 /*iPhone6 Plus*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
  .bp-header {
-   padding: 50px 20px 1em;
+   padding: 50px 0px 1em;
    width: 90%;
  }
  .bp-main{
@@ -154,7 +153,7 @@
  }
  .bp-aboutmyself {
    width: 100%;
-    top: 30rem;
+   padding: 5% 12% 1em;
  }
  .bp-header__title {
    font-size: 1.8em;
@@ -169,7 +168,6 @@
  .section__img {
    max-height: 190px !important;
  }
-
  #holder{
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
@@ -181,10 +179,145 @@
  }
 }
 
+ /* iPhone X */
+ @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  .bp-header {
+    padding: 50px 0px 1em;
+    width: 90%;
+  }
+  .bp-main{
+    zoom:76%;
+  }
+  .bp-cvpage {
+    padding: 93rem 0px 3em;
+    width: 90%;
+    -moz-transform: scale(0.73, 0.73);
+    zoom: 0.73;
+    zoom: 73%;
+    top: 0px;
+  }
+  .bp-aboutmyself {
+    width: 100%;
+    padding: 5% 12% 1em;
+  }
+  .bp-header__title {
+    font-size: 1.8em;
+  }
+  .showcase-paragraph {
+    width: 100% !important;
+  }
+  .ocean {
+    padding-top: 100%;
+    margin-bottom: -80%;
+  }
+  .section__img {
+    max-height: 190px !important;
+  }
+  #holder{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+/* iPhone 12, 12 Pro, 13, 13 Pro*/
+@media only screen and (min-device-width: 390px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  .bp-header {
+    padding: 50px 20px 1em;
+    width: 90%;
+  }
+  .bp-main{
+    zoom:76%;
+  }
+  .bp-cvpage {
+    padding: 93rem 0px 3em;
+    width: 90%;
+    -moz-transform: scale(0.73, 0.73);
+    zoom: 0.73;
+    zoom: 73%;
+    top: 0px;
+  }
+  .bp-aboutmyself {
+    width: 100%;
+    padding: 5% 12% 1em;
+  }
+  .bp-header__title {
+    font-size: 1.8em;
+  }
+  .showcase-paragraph {
+    width: 100% !important;
+  }
+  .ocean {
+    padding-top: 100%;
+    margin-bottom: -80%;
+  }
+  .section__img {
+    max-height: 190px !important;
+  }
+  #holder{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+
+/* iPhone XS Max, XR, 12 Pro Max, 13 Pro Max */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  .bp-header {
+    padding: 50px 20px 1em;
+    width: 90%;
+  }
+  .bp-main{
+    zoom:76%;
+  }
+  .bp-cvpage {
+    padding: 93rem 0px 3em;
+    width: 90%;
+    -moz-transform: scale(0.73, 0.73);
+    zoom: 0.73;
+    zoom: 73%;
+    top: 0px;
+  }
+  .bp-aboutmyself {
+    width: 100%;
+    padding: 5% 12% 1em;
+  }
+  .bp-header__title {
+    font-size: 1.8em;
+  }
+  .showcase-paragraph {
+    width: 100% !important;
+  }
+  .ocean {
+    padding-top: 100%;
+     margin-bottom: -80%;
+  }
+  .section__img {
+    max-height: 190px !important;
+  }
+  #holder{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+ }
+
 /*Samsung S7 & S7Edge*/
 @media screen and (device-width: 360px) and (device-height: 640px) {
  .bp-header {
-   padding: 50px 20px 1em;
+   padding: 50px 0px 1em;
    width: 90%;
  }
  .bp-main{
@@ -205,7 +338,7 @@
  }
  .bp-aboutmyself {
    width: 100%;
-    top: 30rem;
+    /* top: 30rem; */
     zoom: 80%;
  }
  .bp-header__title {
@@ -233,10 +366,12 @@
  }
 }
 
+
+
 /* Samsung Galaxy Fold */
 @media screen and (max-width: 280px) {
   .bp-header {
-    padding: 50px 20px 1em;
+    padding: 50px 0px 1em;
     width: 90%;
   }
   .bp-main{
@@ -302,14 +437,14 @@
     padding: 80px 15% 40px 10%;
   }
   .profile {
-    width: 100%;
+    width: 100vw;
   }
   .profile .contact-presentation {
     margin-top: 50px;
     margin-bottom: 50px;
   }
   .experience {
-    width: 100%;
+    width: 100vw;
   }
 }
 @media (max-width: 720px) {
@@ -327,11 +462,12 @@
 
 @media (max-width: 450px) {
   .section-padding {
-    padding: 40px 10% 20px 5%;
+    padding: 40px 7% 0px 7%;
   }
   .profile h1 {
     font-size: 1.8em;
     padding-top: 20px;
+    line-height: 120%;
   }
   .experience .company-wrapper {
     width: 100%;
@@ -343,9 +479,9 @@
   }
   .section-wrapper {
     width: 100%;
+    padding-bottom: 20%;
   }
   .profile .contact-info {
-    margin-top: 50px;
   }
   .profile .picture-resume {
     width: 180px;
@@ -369,7 +505,6 @@
     height: 200px;
   }
   .profile .contact-info {
-    margin-top: 70px;
   }
   .profile .contact-presentation {
     margin-top: 70px;

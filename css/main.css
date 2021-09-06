@@ -52,7 +52,7 @@ body {
 	font-family: 'Helvetica', 'Lato', 'Segoe UI', Helvetica, sans-serif;
 	margin: 0;
 
-	color: #f5f6f7;
+	color: rgb(238, 233, 220);
 	background: #1d1e21;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -128,7 +128,7 @@ a:hover {
   	text-align: center;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #66CC99;
+	color: #ffffff;
 }
 
 .bp-header__desc {
