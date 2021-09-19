@@ -187,6 +187,8 @@
 		// close menu..
 		classie.remove(menuCtrl, 'menu-button--open');
 		classie.remove(nav, 'pages-nav--open');
+		var element = document.getElementById('menu-button');
+		element.style.setProperty("--pseudo-backgroundcolor", "White");
 		onEndTransition(futurePage, function() {
 			classie.remove(stack, 'pages-stack--open');
 			// reorganize stack

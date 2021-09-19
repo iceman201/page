@@ -786,8 +786,7 @@
 	</div>
 
 	<!-- /pages-stack -->
-	<div class="" id="menu-button-container">
-		<button class="menu-button">
+		<button class="menu-button" id="menu-button">
 			<span>Menu</span>
 		</button>
 	</div>
@@ -806,14 +805,15 @@
 
 	<script>
 		$(document).ready(function() {
-			this.querySelector('#page-mydesign').addEventListener('scroll',function() {
+			const query = this.querySelector('#page-mydesign');
+			query.addEventListener('scroll',function() {
+				var element = document.getElementById('menu-button');
 				if (document.getElementById("timeline").getBoundingClientRect().y <= 38) {
-					console.log("haha");
-					document.getElementById('menu-button-container').classList.add("header-not-at-top");
-					// document.getElementsByClassName("menu-button")[0].classList.add("header-not-at-top");
+					element.style.setProperty("--pseudo-backgroundcolor", "Red");
+				} else if (element.click) {
+					element.style.setProperty("--pseudo-backgroundcolor", "White");
 				} else {
-					console.log("hehe");
-					document.getElementById('menu-button-container').classList.remove("header-not-at-top");
+					element.style.setProperty("--pseudo-backgroundcolor", "White");
 				}
 			});
 		});

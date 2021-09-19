@@ -557,6 +557,7 @@ html.js,
 	border: none;
 	outline: none;
 	background: transparent;
+	--pseudo-backgroundcolor: White;
 }
 
 .no-js .menu-button {
@@ -565,8 +566,8 @@ html.js,
 
 .menu-button::before,
 .menu-button::after,
-.menu-button span {
-	background: #ffffff;
+.menu-button span{
+	background: var(--pseudo-backgroundcolor);
 }
 
 .menu-button::before,
@@ -671,12 +672,6 @@ html.js,
 		right: 10px;
 		left: auto;
 		display: block;
-	}
-	.header-not-at-top {
-		background-color: lightBlue;
-		display: table;
-		margin: 0 auto;
-		margin-top: 200px;
 	}
 
 	.language-nav nav .drop-down {
