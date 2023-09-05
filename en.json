@@ -11,9 +11,9 @@
   "iOSDeveloper_jp" : "iOS 開発者",
   "iOSDeveloper_ch" : "iOS 开发员",
 
-  "uiuxDesigner_en" : "UI/UX Designer",
-  "uiuxDesigner_jp" : "UI/UX でデサイナー",
-  "uiuxDesigner_ch" : "UI/UX 设计师",
+  "devops_en" : "DevOps Engineer",
+  "devops_jp" : "デボプス エンジニア",
+  "devops_ch" : "DevOps 工程师",
 
   "rockClimber_en" : "Rock Climber",
   "rockClimber_jp" : "ロッククライマー",
@@ -34,6 +34,14 @@
   "aboutMyself_en" : "About myself",
   "aboutMyself_jp" : "自己紹介",
   "aboutMyself_ch" : "关于我",
+
+  "aboutMyselfParagraph1_en" : "I am Liguo Jiao, currently residing in Auckland, New Zealand. With a Bachelor's degree in Computer Science from the distinguished University of Canterbury, I have cultivated an extensive career as a seasoned Tech Lead, iOS Engineer, and DevOps Engineer. My professional journey has been marked by a dedicated focus on the realm of iOS mobile development for numerous years, allowing me to amass a profound reservoir of expertise in this domain. Through these experiences, I have honed my analytical acumen, leadership abilities, and collaborative aptitude, proving my effectiveness within diverse and multifaceted teams.",
+  "aboutMyselfParagraph1_jp" : "私はリグオ・ジャオと申します。現在、ニュージーランドのオークランドに居住しています。私はカンタベリー大学でコンピューターサイエンスの学士号を取得し、経験豊富なテックリード、iOSエンジニア、およびDevOpsエンジニアとしての幅広いキャリアを築いてきました。私の職業的な経歴は、多年にわたるiOSモバイル開発の分野への専念によって特徴づけられ、この分野での深い専門知識を蓄積する機会を得ました。これらの経験を通じて、分析力、リーダーシップ能力、協力能力を磨き上げ、多様で多面的なチームでの効果を証明しました。",
+  "aboutMyselfParagraph1_ch" : "我是Liguo Jiao，目前居住在新西兰奥克兰。拥有坎特伯雷大学颁发的计算机科学学士学位，我在职业生涯中积累了丰富的经验，担任过资深技术负责人、iOS工程师和DevOps工程师等多个职务。我的职业历程一直专注于iOS移动开发领域，已有多年，使我积累了深厚的专业知识。在这些经历中，我不断磨练了自己的分析能力、领导才能和团队合作能力，证明了我在不同和多样性团队中的高效能力。",
+
+  "aboutMyselfParagraph2_en" : "At present, I am proud to be a member of the esteemed Fiserv Inc., a global leader in the fields of financial technology and payments. Within Fiserv, my primary concentration lies in the realm of digital financial services, where I am deeply committed to crafting cutting-edge mobile banking solutions. My client portfolio includes distinguished institutions such as the Bank of Bangkok and over 2,000 local community banks and credit unions across the United States. I am steadfast in my pursuit of excellence within the ever-evolving landscape of technology and look forward to further contributions in this dynamic field.",
+  "aboutMyselfParagraph2_jp" : "現在、私は誇り高く、金融技術と支払い分野の世界的リーダーであるFiserv Inc.の一員であることを喜んでいます。Fiservでは、私の主要な関心事はデジタル金融サービスの領域にあり、最新のモバイルバンキングソリューションを創造することに深く取り組んでいます。私のクライアントポートフォリオには、バンク・オブ・バンコクなどの優れた機関と、アメリカ全土に2,000以上の地方コミュニティ銀行と信用組合が含まれています。私は技術の絶えず進化する領域での卓越追求に忠実であり、このダイナミックな分野でのさらなる貢献を楽しみにしています。",
+  "aboutMyselfParagraph2_ch" : "目前，我自豪地成为备受尊敬的Fiserv Inc.的一员，这是金融技术和支付领域的全球领导者。在Fiserv内，我的主要关注点是数字金融服务领域，我深刻致力于打造前沿的移动银行解决方案。我的客户组合包括曼谷银行以及美国全国超过2,000家地方社区银行和信用合作社等杰出机构。我坚定地追求卓越，在不断演变的技术领域中期待着进一步的贡献。",
 
   "projects_en" : "Projects",
   "projects_jp" : "プロジェクト",
@@ -98,4 +106,6 @@
   "experience_en" : "Experience",
   "experience_jp" : "経験",
   "experience_ch" : "经验履历"
+
+  
 }
