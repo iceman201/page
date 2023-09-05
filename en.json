@@ -123,11 +123,11 @@
   "projectMoov_jp" : "Sanity & Selfは、Moovチームによって作成された女性向けのセルフケアアプリケーションです。放送、ヨガレッスン、心のトレーニング、女性向け雑誌、コミュニティフォーラムなどが含まれています。（米国AppStoreでのみ利用可能）",
   "projectMoov_cn" : "Sanity & Self是由Moov团队创建的专为女性设计的自我护理应用程序。包括广播、瑜伽课程、心理训练、女性杂志以及社区论坛等功能。（仅在美国AppStore可用）",
 
-  "projectBBL_en" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
-  "projectBBL_jp" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
-  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectMoovStudio_en" : "Moov creates award-winning fitness apps and wearables that combine inspiring design with cutting-edge technologies, delivering highly engaging workouts you can enjoy anytime, everywhere, on your terms. <br>(Only available in the US AppStore)",
+  "projectMoovStudio_jp" : "Moovは、受賞歴のあるフィットネスアプリとウェアラブルを開発し、インスパイアリングなデザインと先進技術を組み合わせ、いつでもどこでも自分の条件で楽しめる非常に魅力的なワークアウトを提供しています。（米国AppStoreのみで利用可能）",
+  "projectMoovStudio_cn" : "Moov开发了屡获殊荣的健身应用程序和可穿戴设备，将鼓舞人心的设计与尖端技术相结合，提供了高度引人入胜的锻炼，您可以根据自己的需求随时随地享受。（仅在美国AppStore可用）",
 
-  "projectBBL_en" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
-  "projectBBL_jp" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
-  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectMoovNow_en" : "Moov Now, It’s a lightweight fitness tracker that collects 3D motion data and gives you instant audio feedback through the mobile Moov App, and it supports Moov Now to acting as a virtual coach for endurance athletes. Product available in Amazon US Market.",
+  "projectMoovNow_jp" : "Moov Nowは、3Dモーションデータを収集し、モバイルMoovアプリを介して即時の音声フィードバックを提供する軽量のフィットネストラッカーです。また、Moov Nowが耐久スポーツの仮想コーチとして機能します。製品はAmazon米国市場で利用可能です。",
+  "projectMoovNow_cn" : "Moov Now，它是一款轻巧的健身追踪器，可以收集3D运动数据，并通过移动Moov应用程序立即提供音频反馈，还支持Moov Now作为耐力运动员的虚拟教练。该产品在亚马逊美国市场上有售。",
 }
