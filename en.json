@@ -105,7 +105,29 @@
 
   "experience_en" : "Experience",
   "experience_jp" : "経験",
-  "experience_ch" : "经验履历"
+  "experience_ch" : "经验履历",
 
+  "projectBBL_en" : "Bualuang™ mBanking, which is central to the bank's digitization strategy, needed to provide reliable service, easy navigation, speedy performance and support as needed. The balance between increased security and reduced friction was essential. Our team built the new mobile app to deliver an efficient and intuitive mobile banking experience that prioritizes availability, security and ease. Delivering features normally only seen in-branch, the new Bangkok Bank Mobile Banking app is one of the most complete banking solutions in the market.",
+  "projectBBL_jp" : "バンクオブバンコクのデジタル化戦略の中核を担うBualuang™ mBankingは、信頼性のあるサービス、使いやすいナビゲーション、スピーディなパフォーマンス、必要なサポートを提供する必要がありました。増加するセキュリティと摩擦の減少のバランスが欠かせませんでした。私たちのチームは、利用可能性、セキュリティ、使いやすさを優先する効率的で直感的なモバイルバンキング体験を提供する新しいモバイルアプリを構築しました。通常は支店でしか見られない機能を提供し、新しいバンコクバンクモバイルバンキングアプリは市場で最も包括的な銀行ソリューションの1つです。",
+  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+
+  "projectRetail_en" : "Mobiliti™ (TouchBanking) is one of the Fiserv mobile products for the USA Financial Institution.Features included: Check your account balances, View recent transactions, Transfer money between your accounts, Pay bills, Find ATMs and branch locations, Camera: the user can use the Mobile Check Deposit feature, Contacts: when using the Popmoney person-to-person payments feature the user easily select a contact from your device to pay, etc.",
+  "projectRetail_jp" : "Mobiliti™（TouchBanking）はFiservが提供する米国の金融機関向けのモバイル製品の1つです。機能には、口座残高の確認、最近の取引の表示、口座間の資金移動、請求書の支払い、ATMや支店の場所の検索、カメラ：モバイルチェックデポジット機能の使用、連絡先：Popmoneyの個人間送金機能を使用する際に、デバイスから支払い先の連絡先を簡単に選択できるなどが含まれています。",
+  "projectRetail_cn" : "Mobiliti™（TouchBanking）是Fiserv为美国金融机构提供的移动产品之一。包括的功能有：查看账户余额、查看最近交易、在您的账户之间转账、支付账单、查找ATM和分行位置、相机：用户可以使用移动支票存款功能、联系人：在使用Popmoney个人对个人支付功能时，用户可以轻松选择要支付的设备上的联系人等。",
   
+  "projectArchitect_en" : "Architect™ is an open services platform for the USA Financial Institution. Architect is supported by a community of developers from financial institutions of all sizes. With over 500 modules and strengthened by community-sharing best practices.",
+  "projectArchitect_jp" : "Architect™はアメリカの金融機関向けのオープンサービスプラットフォームです。Architectは、あらゆる規模の金融機関からの開発者コミュニティのサポートを受けています。500以上のモジュールを備え、コミュニティによるベストプラクティスの共有によって強化されています。",
+  "projectArchitect_cn" : "Architect™是美国金融机构的开放式服务平台。Architect得到了各种规模的金融机构的开发者社区的支持。拥有超过500个模块，并受到社区共享的最佳实践的增强支持。",
+
+  "projectMoov_en" : "Sanity & Self is a Self-Care app for women created by Moov Team. Features included such as Broadcasting, Yoga lessons, Mind training, Woman Magazine, and community forum. <br>(Only available in the US AppStore)",
+  "projectMoov_jp" : "Sanity & Selfは、Moovチームによって作成された女性向けのセルフケアアプリケーションです。放送、ヨガレッスン、心のトレーニング、女性向け雑誌、コミュニティフォーラムなどが含まれています。（米国AppStoreでのみ利用可能）",
+  "projectMoov_cn" : "Sanity & Self是由Moov团队创建的专为女性设计的自我护理应用程序。包括广播、瑜伽课程、心理训练、女性杂志以及社区论坛等功能。（仅在美国AppStore可用）",
+
+  "projectBBL_en" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectBBL_jp" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+
+  "projectBBL_en" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectBBL_jp" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
 }
