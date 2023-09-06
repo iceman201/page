@@ -81,81 +81,81 @@
 
   "projectBBL_en" : "Bualuang™ mBanking, which is central to the bank's digitization strategy, needed to provide reliable service, easy navigation, speedy performance and support as needed. The balance between increased security and reduced friction was essential. Our team built the new mobile app to deliver an efficient and intuitive mobile banking experience that prioritizes availability, security and ease. Delivering features normally only seen in-branch, the new Bangkok Bank Mobile Banking app is one of the most complete banking solutions in the market.",
   "projectBBL_jp" : "バンクオブバンコクのデジタル化戦略の中核を担うBualuang™ mBankingは、信頼性のあるサービス、使いやすいナビゲーション、スピーディなパフォーマンス、必要なサポートを提供する必要がありました。増加するセキュリティと摩擦の減少のバランスが欠かせませんでした。私たちのチームは、利用可能性、セキュリティ、使いやすさを優先する効率的で直感的なモバイルバンキング体験を提供する新しいモバイルアプリを構築しました。通常は支店でしか見られない機能を提供し、新しいバンコクバンクモバイルバンキングアプリは市場で最も包括的な銀行ソリューションの1つです。",
-  "projectBBL_cn" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
+  "projectBBL_ch" : "Bualuang™ mBanking是该银行数字化战略的核心，需要提供可靠的服务、简便的导航、高效的性能和根据需求的支持。在提高安全性和减少摩擦之间取得平衡至关重要。我们的团队构建了全新的移动应用，以提供高效且直观的移动银行体验，将可用性、安全性和便捷性放在首位。新的曼谷银行移动银行应用程序提供了通常只在分行见到的功能，是市场上最完整的银行解决方案之一。",
 
   "projectRetail_en" : "Mobiliti™ (TouchBanking) is one of the Fiserv mobile products for the USA Financial Institution.Features included: Check your account balances, View recent transactions, Transfer money between your accounts, Pay bills, Find ATMs and branch locations, Camera: the user can use the Mobile Check Deposit feature, Contacts: when using the Popmoney person-to-person payments feature the user easily select a contact from your device to pay, etc.",
   "projectRetail_jp" : "Mobiliti™（TouchBanking）はFiservが提供する米国の金融機関向けのモバイル製品の1つです。機能には、口座残高の確認、最近の取引の表示、口座間の資金移動、請求書の支払い、ATMや支店の場所の検索、カメラ：モバイルチェックデポジット機能の使用、連絡先：Popmoneyの個人間送金機能を使用する際に、デバイスから支払い先の連絡先を簡単に選択できるなどが含まれています。",
-  "projectRetail_cn" : "Mobiliti™（TouchBanking）是Fiserv为美国金融机构提供的移动产品之一。包括的功能有：查看账户余额、查看最近交易、在您的账户之间转账、支付账单、查找ATM和分行位置、相机：用户可以使用移动支票存款功能、联系人：在使用Popmoney个人对个人支付功能时，用户可以轻松选择要支付的设备上的联系人等。",
+  "projectRetail_ch" : "Mobiliti™（TouchBanking）是Fiserv为美国金融机构提供的移动产品之一。包括的功能有：查看账户余额、查看最近交易、在您的账户之间转账、支付账单、查找ATM和分行位置、相机：用户可以使用移动支票存款功能、联系人：在使用Popmoney个人对个人支付功能时，用户可以轻松选择要支付的设备上的联系人等。",
   
   "projectArchitect_en" : "Architect™ is an open services platform for the USA Financial Institution. Architect is supported by a community of developers from financial institutions of all sizes. With over 500 modules and strengthened by community-sharing best practices.",
   "projectArchitect_jp" : "Architect™はアメリカの金融機関向けのオープンサービスプラットフォームです。Architectは、あらゆる規模の金融機関からの開発者コミュニティのサポートを受けています。500以上のモジュールを備え、コミュニティによるベストプラクティスの共有によって強化されています。",
-  "projectArchitect_cn" : "Architect™是美国金融机构的开放式服务平台。Architect得到了各种规模的金融机构的开发者社区的支持。拥有超过500个模块，并受到社区共享的最佳实践的增强支持。",
+  "projectArchitect_ch" : "Architect™是美国金融机构的开放式服务平台。Architect得到了各种规模的金融机构的开发者社区的支持。拥有超过500个模块，并受到社区共享的最佳实践的增强支持。",
 
   "projectMoov_en" : "Sanity & Self is a Self-Care app for women created by Moov Team. Features included such as Broadcasting, Yoga lessons, Mind training, Woman Magazine, and community forum. <br>(Only available in the US AppStore)",
   "projectMoov_jp" : "Sanity & Selfは、Moovチームによって作成された女性向けのセルフケアアプリケーションです。放送、ヨガレッスン、心のトレーニング、女性向け雑誌、コミュニティフォーラムなどが含まれています。<br>（米国AppStoreでのみ利用可能）",
-  "projectMoov_cn" : "Sanity & Self是由Moov团队创建的专为女性设计的自我护理应用程序。包括广播、瑜伽课程、心理训练、女性杂志以及社区论坛等功能。<br>（仅在美国AppStore可用）",
+  "projectMoov_ch" : "Sanity & Self是由Moov团队创建的专为女性设计的自我护理应用程序。包括广播、瑜伽课程、心理训练、女性杂志以及社区论坛等功能。<br>（仅在美国AppStore可用）",
 
   "projectMoovStudio_en" : "Moov creates award-winning fitness apps and wearables that combine inspiring design with cutting-edge technologies, delivering highly engaging workouts you can enjoy anytime, everywhere, on your terms. <br>(Only available in the US AppStore)",
   "projectMoovStudio_jp" : "Moovは、受賞歴のあるフィットネスアプリとウェアラブルを開発し、インスパイアリングなデザインと先進技術を組み合わせ、いつでもどこでも自分の条件で楽しめる非常に魅力的なワークアウトを提供しています。<br>（米国AppStoreのみで利用可能）",
-  "projectMoovStudio_cn" : "Moov开发了屡获殊荣的健身应用程序和可穿戴设备，将鼓舞人心的设计与尖端技术相结合，提供了高度引人入胜的锻炼，您可以根据自己的需求随时随地享受。<br>（仅在美国AppStore可用）",
+  "projectMoovStudio_ch" : "Moov开发了屡获殊荣的健身应用程序和可穿戴设备，将鼓舞人心的设计与尖端技术相结合，提供了高度引人入胜的锻炼，您可以根据自己的需求随时随地享受。<br>（仅在美国AppStore可用）",
 
   "projectMoovNow_en" : "Moov Now, It’s a lightweight fitness tracker that collects 3D motion data and gives you instant audio feedback through the mobile Moov App, and it supports Moov Now to acting as a virtual coach for endurance athletes. Product available in Amazon US Market.",
   "projectMoovNow_jp" : "Moov Nowは、3Dモーションデータを収集し、モバイルMoovアプリを介して即時の音声フィードバックを提供する軽量のフィットネストラッカーです。また、Moov Nowが耐久スポーツの仮想コーチとして機能します。製品はAmazon米国市場で利用可能です。",
-  "projectMoovNow_cn" : "Moov Now，它是一款轻巧的健身追踪器，可以收集3D运动数据，并通过移动Moov应用程序立即提供音频反馈，还支持Moov Now作为耐力运动员的虚拟教练。该产品在亚马逊美国市场上有售。",
+  "projectMoovNow_ch" : "Moov Now，它是一款轻巧的健身追踪器，可以收集3D运动数据，并通过移动Moov应用程序立即提供音频反馈，还支持Moov Now作为耐力运动员的虚拟教练。该产品在亚马逊美国市场上有售。",
 
   "projectSlice_en": "Slice is an ambitious in-house project, set to launch in June 2018. Owned by P-22 Studio, it collaborates with artists from around the world to create unique animation sets that blend art with photography. Transform any photo with Slice and let your imagination run wild.",
   "projectSlice_jp": "Sliceは2018年6月にローンチ予定の野心的な社内プロジェクトです。オーナーはP-22 Studioで、世界中のアーティストと協力して、アートと写真を融合させたユニークなアニメーションセットを作成します。Sliceを使って写真を変身させ、想像力を駆使しましょう。",
-  "projectSlice_cn": "Slice是一项雄心勃勃的内部项目，计划于2018年6月发布。由P-22 Studio拥有，与世界各地的艺术家合作，创造独特的动画作品，将艺术与摄影相融合。使用Slice来转变任何照片，释放您的想象力。",
+  "projectSlice_ch": "Slice是一项雄心勃勃的内部项目，计划于2018年6月发布。由P-22 Studio拥有，与世界各地的艺术家合作，创造独特的动画作品，将艺术与摄影相融合。使用Slice来转变任何照片，释放您的想象力。",
 
   "projectMihi_en": "Mihi Mai is a New Zealand Maori-designed social networking application. Its purpose is to capture and share the authenticity and uniqueness of Maori culture by creating a social network based on core Maori beliefs and traditional principles.",
   "projectMihi_jp": "Mihi Maiは、ニュージーランドマオリ族がデザインしたソーシャルネットワークアプリケーションです。マオリ文化の本質と独自性を捉え、マオリの信念と伝統的な原則に基づいたソーシャルネットワークを作成することを目的としています。",
-  "projectMihi_cn": "Mihi Mai是一款由新西兰毛利族设计的社交网络应用程序。其目的是通过创建基于毛利核心信仰和传统原则的社交网络来捕捉和分享毛利文化的真实性和独特性。",
+  "projectMihi_ch": "Mihi Mai是一款由新西兰毛利族设计的社交网络应用程序。其目的是通过创建基于毛利核心信仰和传统原则的社交网络来捕捉和分享毛利文化的真实性和独特性。",
 
   "projectSaferMe_en": "The SaferMe application helps businesses collect, map, and distribute health and safety reports from their staff. Its key features include making reporting easy, reducing paperwork, and improving information quality. The SaferMe app also tracks worker locations to inform them of relevant hazards.",
   "projectSaferMe_jp": "SaferMeアプリケーションは、企業がスタッフからの健康と安全に関する報告書を収集し、マッピングし、配信するのを支援します。その主な特徴は、報告を簡単にし、文書作業を減少し、情報の品質を向上させることです。SaferMeアプリは労働者の位置を追跡し、関連する危険を労働者に通知するために使用されます。",
-  "projectSaferMe_cn": "SaferMe应用程序帮助企业收集、地图化并分发员工的健康与安全报告。其关键功能包括简化报告流程、减少文书工作和提高信息质量。SaferMe应用还跟踪工人的位置，以便通知他们相关的危险情况。",
+  "projectSaferMe_ch": "SaferMe应用程序帮助企业收集、地图化并分发员工的健康与安全报告。其关键功能包括简化报告流程、减少文书工作和提高信息质量。SaferMe应用还跟踪工人的位置，以便通知他们相关的危险情况。",
 
   "projectMet_en": "METS is an electronic timesheet system that reduces paperwork and effort by allowing the team to complete timesheets electronically. This app enables users to record time using a start-stop timer and submit the time spent on jobs into METS for supervisor approval. The METS web dashboard can be used to monitor all active timers for the team. Timesheet entries and exports to payroll systems are fully customizable, facilitating seamless integration within the organization. METS is developer-friendly, offering a comprehensive REST API, support for webhooks, and automation capabilities.",
   "projectMet_jp": "METSは電子タイムシートシステムで、チームが電子的にタイムシートを記入できることにより、文書作業と労力を削減します。このアプリは、スタートストップタイマーを使用して時間を記録し、仕事に費やされた時間をMETSに投稿して監督者の承認を待つことができます。METSのウェブダッシュボードを使用して、チームのすべてのアクティブなタイマーを監視できます。タイムシートのエントリーおよび給与システムへのエクスポートは完全にカスタマイズ可能で、組織内でのシームレスな統合をサポートします。METSは開発者向けにフレンドリーで、包括的なREST API、Webフックのサポート、自動化機能を提供しています。",
-  "projectMet_cn": "METS是一款电子时间表系统，通过允许团队电子化完成时间表来减少文书工作和工作量。该应用程序允许用户使用启动-停止计时器记录时间，并将在工作上花费的时间提交到METS以等待主管批准。使用METS Web仪表板可以监视团队的所有活动计时器。时间表条目和导出到工资系统都可以进行完全定制，有助于实现组织内的无缝集成。METS对开发者友好，提供全面的REST API、支持Web钩子和自动化功能。",
+  "projectMet_ch": "METS是一款电子时间表系统，通过允许团队电子化完成时间表来减少文书工作和工作量。该应用程序允许用户使用启动-停止计时器记录时间，并将在工作上花费的时间提交到METS以等待主管批准。使用METS Web仪表板可以监视团队的所有活动计时器。时间表条目和导出到工资系统都可以进行完全定制，有助于实现组织内的无缝集成。METS对开发者友好，提供全面的REST API、支持Web钩子和自动化功能。",
 
   "projectRefPlan_en": "Refit Planner is a mobile data collection app that enables vessel captains, owners, and operators to gather information related to maintenance, refit, and repair work specifications. The app's mobility allows crew members to use a tablet to answer questions about various tasks at their location anywhere on the vessel. Users can also take pictures of the work site and related systems/equipment, edit them within the app, and synchronize all collected data with the RefitPlanner website when connected. <br>The app consists of two stages. The first stage involves a registration process, adding vessel and contact details, and submitting a categorized work list that includes all known tasks for the upcoming refit, repair, or maintenance work package. This work list is then sent to MML for review, categorization, and allocation of a unique numbering system. Stage 2 follows this review, allowing users to access individual work list tasks within the app and complete a questionnaire to capture and upload additional information and pictures related to each task via the app to the website. Additional tasks can be added within the app at any time, and any new additions will be synchronized with the website, allowing for dynamic updates and reviews.",
   "projectRefPlan_jp": "Refit Plannerは、船の船長、オーナー、および運営者がメンテナンス、リフィット、および修理作業の仕様に関連する情報を収集できるモバイルデータ収集アプリです。このアプリのモビリティにより、乗組員は船内のどこでもタブレットを使用して各タスクに関する質問に答えることができます。作業現場や関連するシステム/設備の写真を撮影し、アプリ内で編集し、接続時に収集されたデータをすべてRefitPlannerウェブサイトと同期できます。 <br>このアプリには2つの段階があります。最初の段階では登録プロセス、船舶および連絡先の詳細の追加、次回のリフィット、修理、またはメンテナンス作業パッケージのすべての既知のタスクを含むカテゴリ別の作業リストを提出します。この作業リストは、MMLがカテゴリ化し、一意の番号システムを割り当てるために提出されます。レビューに続いてステージ2が続き、アプリ内で個々の作業リストタスクにアクセスし、各タスクに関連する追加情報と写真をキャプチャし、アプリを介してウェブサイトにアップロードできます。新しいタスクをいつでもアプリ内で追加でき、追加されたものはウェブサイトと同期され、動的な更新とレビューが可能になります。",
-  "projectRefPlan_cn": "Refit Planner是一款移动数据收集应用，可帮助船长、船主和运营商收集与维护、翻新和维修工作规格相关的信息。该应用的便携性使船员可以使用平板电脑回答与船上各个任务有关的问题。用户还可以拍摄工作现场和相关系统/设备的照片，在应用程序内进行编辑，并在连接时将所有收集的数据与RefitPlanner网站同步。<br>该应用分为两个阶段。第一阶段涉及注册过程，添加船只和联系方式，以及提交一个包含所有已知任务的分类工作列表，用于即将进行的翻新、维修或维护工作包。然后，此工作列表将发送给MML进行审查、分类和分配唯一的编号系统。第二阶段在此审查之后进行，允许用户在应用程序内访问单个工作列表任务，并完成问卷调查，以捕获和通过应用程序上传与每个任务相关的其他信息和照片到网站。用户可以随时在应用程序内添加新任务，所有新添加的内容都将与网站同步，实现动态更新和审查。",
+  "projectRefPlan_ch": "Refit Planner是一款移动数据收集应用，可帮助船长、船主和运营商收集与维护、翻新和维修工作规格相关的信息。该应用的便携性使船员可以使用平板电脑回答与船上各个任务有关的问题。用户还可以拍摄工作现场和相关系统/设备的照片，在应用程序内进行编辑，并在连接时将所有收集的数据与RefitPlanner网站同步。<br>该应用分为两个阶段。第一阶段涉及注册过程，添加船只和联系方式，以及提交一个包含所有已知任务的分类工作列表，用于即将进行的翻新、维修或维护工作包。然后，此工作列表将发送给MML进行审查、分类和分配唯一的编号系统。第二阶段在此审查之后进行，允许用户在应用程序内访问单个工作列表任务，并完成问卷调查，以捕获和通过应用程序上传与每个任务相关的其他信息和照片到网站。用户可以随时在应用程序内添加新任务，所有新添加的内容都将与网站同步，实现动态更新和审查。",
   
   "projectScadaFarm_en": "SCADAfarm is a modular, integrated control and monitoring system that enables farmers to control, monitor, and log key aspects of their farm's operation. It is designed to integrate with the farm's existing control systems, such as irrigation and pump controllers. The app allows you to remotely control and monitor your farm's irrigation system.",
   "projectScadaFarm_jp": "SCADAfarmは、農家が農場の運用の重要な側面を制御、監視、およびデータ記録できるモジュラーで統合された制御および監視システムです。これは、灌漑装置やポンプコントローラなど、農場の既存の制御システムと統合するように設計されています。このアプリを使用すると、農場の灌漑システムをリモートで制御および監視できます。",
-  "projectScadaFarm_cn": "SCADAfarm是一种模块化的综合控制和监测系统，允许农民控制、监测和记录农场运营的关键方面。它旨在与农场的现有控制系统集成，如灌溉和泵控制器。该应用程序允许您远程控制和监视农场的灌溉系统。",
+  "projectScadaFarm_ch": "SCADAfarm是一种模块化的综合控制和监测系统，允许农民控制、监测和记录农场运营的关键方面。它旨在与农场的现有控制系统集成，如灌溉和泵控制器。该应用程序允许您远程控制和监视农场的灌溉系统。",
 
   "projectSidewinder_en": "Sidewinder is a project management tool focused on tracking the installation of cables. It offers real-time traceability of work completed in a cable installation project and provides a status dashboard that allows project managers and lead contractors to quickly assess the progress made and the remaining workloads.",
   "projectSidewinder_jp": "Sidewinderはケーブルの設置を追跡することを中心としたプロジェクト管理ツールです。Sidewinderはケーブル設置プロジェクトで完了した作業のリアルタイムなトレースを提供し、プロジェクトマネージャーや主要請負業者が進捗状況と残りの作業量を迅速に評価できるステータスダッシュボードを提供します。",
-  "projectSidewinder_cn": "Sidewinder是一款以跟踪电缆安装为核心的项目管理工具。它提供了电缆安装项目中工作进展的实时可追踪性，并提供状态仪表板，允许项目经理和主要承包商迅速确定工作进展情况和剩余工作量。",
+  "projectSidewinder_ch": "Sidewinder是一款以跟踪电缆安装为核心的项目管理工具。它提供了电缆安装项目中工作进展的实时可追踪性，并提供状态仪表板，允许项目经理和主要承包商迅速确定工作进展情况和剩余工作量。",
  
   "projectGymDiary_en": "Gymme Diary, also known as Gym Workout Manager, is a personal exercise recording application. Users can use it as an assistant tool to help them record all workout information, much like maintaining a workout diary. It also provides an analysis of the effectiveness of their workouts, enabling users to manage their workout plans more effectively.",
   "projectGymDiary_jp": "Gymme Diary、またの名をGym Workout Managerは、個人の運動記録アプリケーションです。ユーザーはこれを日記帳のように使用し、すべてのトレーニング情報を記録するのに役立てることができます。また、トレーニングの効果を分析し、ユーザーがトレーニング計画を管理するのに役立てることもできます。",
-  "projectGymDiary_cn": "Gymme Diary，又名Gym Workout Manager，是一款个人运动记录应用程序。用户可以将其用作助手工具，帮助用户记录所有的锻炼信息，就像维护一本锻炼日记一样。它还提供了锻炼效果的分析，使用户能够更有效地管理他们的锻炼计划。",
+  "projectGymDiary_ch": "Gymme Diary，又名Gym Workout Manager，是一款个人运动记录应用程序。用户可以将其用作助手工具，帮助用户记录所有的锻炼信息，就像维护一本锻炼日记一样。它还提供了锻炼效果的分析，使用户能够更有效地管理他们的锻炼计划。",
 
   "projectPokeCP_en": "PokeCP predicts what the Pokémon will evolve into based on the provided Combat Power and the multipliers gathered from the community. This is useful for deciding whether the evolved Pokémon you have will be stronger or weaker than the one you currently have. PokeCP also helps in saving candies, as you no longer need to test evolution. Another feature is checking whether a username is available or not.<br/><br/>Available in English, German, French, Russian, Japanese, Korean, Chinese Traditional (HK), Chinese Traditional (TW), and Chinese Simplified.<br/>Predict Pokémon Combat Power of evolutions.<br/>Displays the minimum and maximum possible combat power.<br/>Displays the maximum combat power for a Pokémon caught or hatched.<br/>Displays the candies required to perform evolution.",
   "projectPokeCP_jp": "PokeCPは、提供されたコンバットパワーとコミュニティから収集した乗数に基づいて、ポケモンがどのように進化するかを予測します。これは、進化したポケモンが現在持っているものよりも強いか弱いかを決定するのに役立ちます。PokeCPは進化をテストする必要がなくなるため、キャンディの節約にも役立ちます。また、ユーザー名が利用可能かどうかを確認する別の機能もあります。<br/><br/>英語、ドイツ語、フランス語、ロシア語、日本語、韓国語、繁体字中国語（香港）、繁体字中国語（台湾）、簡体字中国語で利用可能です。<br/>ポケモンの進化のコンバットパワーを予測します。<br/>最小および最大のコンバットパワーを表示します。<br/>捕獲または孵化したポケモンの最大コンバットパワーを表示します。<br/>進化を実行するために必要なキャンディを表示します。",
-  "projectPokeCP_cn": "PokeCP基于提供的战斗力和社区收集的倍增器，预测了宝可梦将会进化成什么样。这有助于决定您已经拥有的进化后宝可梦是更强还是更弱。PokeCP还有助于节省糖果，因为您不再需要测试进化。另一个功能是检查用户名是否可用。<br/><br/>提供英语、德语、法语、俄语、日语、韩语、繁体中文（香港）、繁体中文（台湾）和简体中文。<br/>预测宝可梦的战斗力。<br/>显示最小和最大可能的战斗力。<br/>显示捕获或孵化的宝可梦的最大战斗力。<br/>显示执行进化所需的糖果。",
+  "projectPokeCP_ch": "PokeCP基于提供的战斗力和社区收集的倍增器，预测了宝可梦将会进化成什么样。这有助于决定您已经拥有的进化后宝可梦是更强还是更弱。PokeCP还有助于节省糖果，因为您不再需要测试进化。另一个功能是检查用户名是否可用。<br/><br/>提供英语、德语、法语、俄语、日语、韩语、繁体中文（香港）、繁体中文（台湾）和简体中文。<br/>预测宝可梦的战斗力。<br/>显示最小和最大可能的战斗力。<br/>显示捕获或孵化的宝可梦的最大战斗力。<br/>显示执行进化所需的糖果。",
   
-  "uniProject1_cn": "它将一个名为“路由守护程序”的普通用户空间程序实现在Linux上。与通过真实的网络接口发送路由数据包不同，路由守护程序将通过本地套接字与其并行在同一台机器上运行的对等守护程序进行通信。您的程序应该是一个文本模式程序，不提供图形用户界面将不会获得额外的分数。",
+  "uniProject1_ch": "它将一个名为“路由守护程序”的普通用户空间程序实现在Linux上。与通过真实的网络接口发送路由数据包不同，路由守护程序将通过本地套接字与其并行在同一台机器上运行的对等守护程序进行通信。您的程序应该是一个文本模式程序，不提供图形用户界面将不会获得额外的分数。",
   "uniProject1_en": "It implemented a 'routing demon' as a normal userspace program under Linux. Instead of sending its routing packets over real network interfaces, the routing demon will communicate with its peer demons (which run in parallel on the same machine) through local sockets. Your program should be a text mode program; no credit will be given for providing a graphical user interface.",
   "uniProject1_jp": "Linuxの通常のユーザースペースプログラムとして、 'ルーティングデーモン' を実装しました。ルーティングパケットを実際のネットワークインターフェースを介して送信する代わりに、ルーティングデーモンはローカルソケットを介して同じマシン上で並行して実行される対応するデーモンと通信します。プログラムはテキストモードである必要があり、グラフィカルユーザーインターフェースを提供しない場合、追加のクレジットは付与されません。",
 
-  "uniProject2_cn": "这是一个简单的游戏项目，包括了一些3D模型，如城堡模型、大炮模型、一些外星机器人和一艘太空飞船模型。",
+  "uniProject2_ch": "这是一个简单的游戏项目，包括了一些3D模型，如城堡模型、大炮模型、一些外星机器人和一艘太空飞船模型。",
   "uniProject2_en": "A simple game project, included a few 3D models such as a model of a castle, a model of a cannon, a few alien robots, and a model of a spaceship.",
   "uniProject2_jp": "シンプルなゲームプロジェクトで、城のモデル、大砲のモデル、いくつかのエイリアンロボット、宇宙船のモデルなど、いくつかの3Dモデルが含まれています。",
 
-  "uniProject3_cn": "这个项目实现了圆柱体、锥体、平面、球体、四面体、环面和向量的光线追踪模块。",
+  "uniProject3_ch": "这个项目实现了圆柱体、锥体、平面、球体、四面体、环面和向量的光线追踪模块。",
   "uniProject3_en": "Module for ray tracing of Cylinder, Cone, Plane, Sphere, Tetrahedron, Torus, and Vector.",
   "uniProject3_jp": "円柱、円錐、平面、球、四面体、トーラス、ベクトルの光線追跡モジュールを実装したモジュールです。",
   
-  "uniProject4_cn": "一个并发的网页爬虫，使用多个线程下载特定网站的所有链接文件，以提供高效的实现。（多线程练习）",
+  "uniProject4_ch": "一个并发的网页爬虫，使用多个线程下载特定网站的所有链接文件，以提供高效的实现。（多线程练习）",
   "uniProject4_en": "One of my university projects, a concurrent web scraper that downloads all linked files for a particular website using multiple threads to provide efficient implementation.",
   "uniProject4_jp": "大学のプロジェクトの1つで、特定のウェブサイトのすべてのリンクファイルをダウンロードするために複数のスレッドを使用して効率的な実装を提供する並行ウェブスクレイパー。",
 
-  "uniProject5_cn": "我的大学项目之一，一个简单的乒乓球游戏，运行在ATMega32嵌入式系统板上。",
+  "uniProject5_ch": "我的大学项目之一，一个简单的乒乓球游戏，运行在ATMega32嵌入式系统板上。",
   "uniProject5_en": "One of my university projects, a simple pong game running on an ATMega32 embedded system board.",
   "uniProject5_jp": "私の大学のプロジェクトの1つ、ATMega32組み込みシステムボードで実行されるシンプルなポンゲーム。"
 }
