@@ -37,8 +37,8 @@
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home" text_id = "home">Home</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-aboutme" text_id = "aboutMyself">About myself</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-mydesign" text_id = "projects">Projects</a></div>
-		<!-- <div class="pages-nav__item"><a class="link link--page" href="#page-cv" text_id = "curriculumVitae">Curriculum Vitae</a></div> -->
+		<div class="pages-nav__item"><a class="link link--page" href="#page-cv" text_id = "curriculumVitae">Curriculum Vitae</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-project" text_id = "projects">Projects</a></div>
 		<div class="pages-nav__item pages-nav__item--social">
 			<div id="holder">
 				<div class="button">
@@ -117,7 +117,7 @@
 			</div>
 		</div>
 
-		<div class="page project" id="page-mydesign">
+		<div class="page project" id="page-project">
 			<div class="language-nav">
 				<nav>
 				<ul class="drop-down closed">
@@ -637,12 +637,9 @@
 				      <div class="contact-presentation">
 				      	<span class="bold">Hire me↘︎</span>
 							<p>
-								I’m an iOS developer with a passion for providing creative solutions to complex problem
-								sets. I work primarily with Swift, Objective-C/C++ and Python, but will happily pick up other languages as I go.
-								<br>
-								Mobile Application development is so much fun for me, as I love the
-								design aspect of an application. I prefer a clean and cute visual design, and also with useful
-								&amp intentional interaction. </p>
+								A seasoned iOS development leader with a proven track record of crafting innovative solutions, guiding teams to achieve exceptional project goals. Extensive expertise in Swift, Objective-C/C++, Automation Test, Azure DevOps, and CI/CD practices ensures seamless delivery. 
+								<br><br>
+								Proven mentor and leader, championing user-centric mobile applications with intuitive interactions and clean designs. Continuously learning to stay at the forefront of mobile development.
 							<p>
 								“Making the simple complicated is commonplace. Making the complicated simple, awesomely simple, that's creativity.” - Charles Mingus
 							</p>
@@ -684,7 +681,7 @@
 								</div>
 							</div>
 							<div class="job-wrapper clearfix">
-								<div class="experience-title">Senior iOS Engineer</div> <!-- JOB TITLE  -->
+								<div class="experience-title">Mobile Development Advisor</div> <!-- JOB TITLE  -->
 								<div class="company-description">
 									<p>Introduction of the company:</p>
 									<p>
@@ -866,7 +863,7 @@
 
 	<script>
 		$(document).ready(function() {
-			this.querySelector('#page-mydesign').addEventListener('scroll',function() {
+			this.querySelector('#page-project').addEventListener('scroll',function() {
 				if (document.getElementById("timeline").getBoundingClientRect().y <= 38) {
 					console.log("Thank you for viewing");
 					document.getElementById('menu-button-container').classList.add("header-not-at-top");
