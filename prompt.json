@@ -3,13 +3,13 @@
 	"kiaOra_jp" : "キオラ",
 	"kiaOra_ch" : "你好",
 
-  "softwareEngineer_en" : "Software Engineer",
-  "softwareEngineer_jp" : "ソフトウェアエンジニアr",
-  "softwareEngineer_ch" : "软件工程师",
+  "softwareEngineer_en" : "Mobile Development Advisor",
+  "softwareEngineer_jp" : "スマートフォンアプリ開発コンサルタント",
+  "softwareEngineer_ch" : "手机软件开发顾问",
 
-  "iOSDeveloper_en" : "iOS Developer",
-  "iOSDeveloper_jp" : "iOS 開発者",
-  "iOSDeveloper_ch" : "iOS 开发员",
+  "iOSDeveloper_en" : "iOS Engineer",
+  "iOSDeveloper_jp" : "iOS エンジニア",
+  "iOSDeveloper_ch" : "iOS 工程师",
 
   "devops_en" : "DevOps Engineer",
   "devops_jp" : "デボプス エンジニア",
