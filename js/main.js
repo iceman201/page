@@ -216,16 +216,6 @@
 		return idxs;
 	}
 
-	function showBody() {
-		document.body.style.visibility = 'visible';
-	}
-
-	if (document.readyState === 'complete' || document.readyState === 'interactive') {
-		setTimeout(showBody, 0);
-	} else {
-		document.addEventListener('DOMContentLoaded', showBody);
-	}
-
 	init();
 
 })(window);
