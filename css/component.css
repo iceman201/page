@@ -559,10 +559,6 @@ html.js,
 	background: transparent;
 }
 
-.no-js .menu-button {
-	display: none;
-}
-
 .menu-button::before,
 .menu-button::after,
 .menu-button span {
