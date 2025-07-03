@@ -23,7 +23,7 @@ jobs:
           log_level: INFO
           blacklist: bower_components google3b93de3569df4ebd.html googled98412e986f33743.html 
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: log
           path: log.log
@@ -94,7 +94,7 @@ jobs:
           npx lhci autorun --collect.url="http://localhost:8080" --collect.staticDistDir=./ --upload.target=filesystem --upload.outputDir=./lhci-report
 
       - name: Upload Lighthouse report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: lhci-report
           path: lhci-report
