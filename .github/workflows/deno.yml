@@ -47,12 +47,12 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
-      # - name: Copy npm JS dependencies to js
-      #   run: |
-      #     cp node_modules/scrollreveal/dist/scrollreveal.js js/ || true
-      #     cp node_modules/typed.js/dist/typed.umd.js js/ || true
-      #     cp node_modules/gsap/src/minified/TimelineLite.min.js js/ || true
-      #     cp node_modules/gsap/dist/gsap.min.js js/ || true
+      - name: Copy npm JS dependencies to js
+        run: |
+          cp node_modules/scrollreveal/dist/scrollreveal.js js/ || true
+          cp node_modules/typed.js/dist/typed.umd.js js/ || true
+          cp node_modules/gsap/src/minified/TimelineLite.min.js js/ || true
+          cp node_modules/gsap/dist/gsap.min.js js/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
