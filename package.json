@@ -16,9 +16,10 @@
   "bugs": {
     "url": "https://github.com/iceman201/page/issues"
   },
-  "homepage": "https://github.com/iceman201/page#readme",
+  "homepage": "https://iceman201.github.io/page",
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.8.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "jquery": "^3.7.1",
     "marked": "^16.0.0",
