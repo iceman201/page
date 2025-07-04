@@ -21,7 +21,7 @@ jobs:
         with:
           root: ./
           log_level: INFO
-          blacklist: bower_components google3b93de3569df4ebd.html googled98412e986f33743.html 
+          blacklist: npm_modules google3b93de3569df4ebd.html googled98412e986f33743.html 
 
       - uses: actions/upload-artifact@v4
         with:
