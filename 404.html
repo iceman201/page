@@ -51,131 +51,132 @@
       </section>
     </main>
   </div>
-</body>
-<script>
-  const ENTER_KEY = 13
-  const fileSystem = {
-  'help.md': `
-  Supported commands are:
-  - ls: List directory contents
-  - cat: Displays a filename.
-  - clear: Clear the terminal screen.
-  - back: Back to main page.`,
-  'run.server':`Boom💥`,
-  'MyDatabase.sql':`oh man this is 128k Macintosh. 😝`,
-  'HackMyServer.cob': `NO WAY! I wont let you hack my Macintosh!!!`,
-  }
 
-  const intro = {
-    '404-intro':`Welcome to my Macintosh 128K server terminal!
-
-
-    ERROR: 404 - the page you looking for does not exist.
-
-
-Yes, it's correct my website is hosting on Macintosh 128k.`,
-  }
-
-  new class Terminal {
-  constructor() {
-    this.onKeyDown = this.onKeyDown.bind(this)
-    this.clearHistory = this.clearHistory.bind(this)
-    this.addHistory = this.addHistory.bind(this)
-    this.listFiles = this.listFiles.bind(this)
-    this.catFile = this.catFile.bind(this)
-    this.backMain = this.backMain.bind(this)
-    this.scrollToBottom = this.scrollToBottom.bind(this)
-
-    this.history = []
-    this.elements = {
-      input: document.querySelector('.input'),
-      terminal: document.querySelector('.terminal'),
-      outputContainer: document.querySelector('.outputContainer')
+  <script>
+    const ENTER_KEY = 13
+    const fileSystem = {
+    'help.md': `
+    Supported commands are:
+    - ls: List directory contents
+    - cat: Displays a filename.
+    - clear: Clear the terminal screen.
+    - back: Back to main page.`,
+    'run.server':`Boom💥`,
+    'MyDatabase.sql':`oh man this is 128k Macintosh. 😝`,
+    'HackMyServer.cob': `NO WAY! I wont let you hack my Macintosh!!!`,
     }
-    this.prompt = '$'
-    this.commands = {
-      clear: this.clearHistory,
-      back: this.backMain,
-      ls: this.listFiles,
-      cat: this.catFile,
+
+    const intro = {
+      '404-intro':`Welcome to my Macintosh 128K server terminal!
+
+
+  ERROR: 404 - the page you looking for does not exist.
+
+
+  Yes, it's correct my website is hosting on Macintosh 128k.`,
     }
-    this.elements.input.addEventListener('keydown', this.onKeyDown)
-    this.catFile('404-intro')
-    this.catFile('help.md')
-  }
 
-  clearHistory() {
-    this.history = []
-    this.elements.outputContainer.innerHTML = ''
-  }
+    new class Terminal {
+    constructor() {
+      this.onKeyDown = this.onKeyDown.bind(this)
+      this.clearHistory = this.clearHistory.bind(this)
+      this.addHistory = this.addHistory.bind(this)
+      this.listFiles = this.listFiles.bind(this)
+      this.catFile = this.catFile.bind(this)
+      this.backMain = this.backMain.bind(this)
+      this.scrollToBottom = this.scrollToBottom.bind(this)
 
-  backMain() {
-    window.location.replace('https://liguo.jiao.co.nz');
-  }
-  catFile(fileName) {
-    if (fileName == "404-intro")
-      this.addHistory(intro[fileName])
-    else
-      if (fileName in fileSystem)
-        this.addHistory(fileSystem[fileName])
+      this.history = []
+      this.elements = {
+        input: document.querySelector('.input'),
+        terminal: document.querySelector('.terminal'),
+        outputContainer: document.querySelector('.outputContainer')
+      }
+      this.prompt = '$'
+      this.commands = {
+        clear: this.clearHistory,
+        back: this.backMain,
+        ls: this.listFiles,
+        cat: this.catFile,
+      }
+      this.elements.input.addEventListener('keydown', this.onKeyDown)
+      this.catFile('404-intro')
+      this.catFile('help.md')
+    }
+
+    clearHistory() {
+      this.history = []
+      this.elements.outputContainer.innerHTML = ''
+    }
+
+    backMain() {
+      window.location.replace('https://liguo.jiao.co.nz');
+    }
+    catFile(fileName) {
+      if (fileName == "404-intro")
+        this.addHistory(intro[fileName])
       else
-        this.addHistory(`cat: ${fileName}: No such file or directory`)
-  }
+        if (fileName in fileSystem)
+          this.addHistory(fileSystem[fileName])
+        else
+          this.addHistory(`cat: ${fileName}: No such file or directory`)
+    }
 
-  scrollToBottom() {
-    this.elements.terminal.scrollTop = this.elements.terminal.scrollHeight
-  }
+    scrollToBottom() {
+      this.elements.terminal.scrollTop = this.elements.terminal.scrollHeight
+    }
 
-  addHistory(output) {
-    this.history.push(output)
+    addHistory(output) {
+      this.history.push(output)
 
-    var outputText = document.createTextNode(output)
-    let outputEl = document.createElement('pre')
+      var outputText = document.createTextNode(output)
+      let outputEl = document.createElement('pre')
 
-    outputEl.classList.add('output')
-    outputEl.appendChild(outputText)
+      outputEl.classList.add('output')
+      outputEl.appendChild(outputText)
 
-    this.elements.outputContainer.appendChild(outputEl)
-  }
+      this.elements.outputContainer.appendChild(outputEl)
+    }
 
-  listFiles(dir) {
-    const output = Object.keys(fileSystem).reduce((acc, curr, index) => {
-      const deliminator = index % 3 === 0 && index !== 0 ? '\n' : '\t'
-      return `${acc}${curr}${deliminator}`
-    }, '')
+    listFiles(dir) {
+      const output = Object.keys(fileSystem).reduce((acc, curr, index) => {
+        const deliminator = index % 3 === 0 && index !== 0 ? '\n' : '\t'
+        return `${acc}${curr}${deliminator}`
+      }, '')
 
-    this.addHistory(output)
-  }
+      this.addHistory(output)
+    }
 
-  clearInput() { this.elements.input.value = '' }
+    clearInput() { this.elements.input.value = '' }
 
-  onKeyDown(e) {
-    // Only respond to Enter key presses
-    if (e.keyCode !== ENTER_KEY) return
+    onKeyDown(e) {
+      // Only respond to Enter key presses
+      if (e.keyCode !== ENTER_KEY) return
 
-    const inputText = this.elements.input.value
-    const inputArray = inputText.split(' ')
-    const inputCommand = inputArray[0]
-    const arg = inputArray[1]
+      const inputText = this.elements.input.value
+      const inputArray = inputText.split(' ')
+      const inputCommand = inputArray[0]
+      const arg = inputArray[1]
 
-    this.addHistory(`${this.prompt} ${inputText}`)
-    this.clearInput()
+      this.addHistory(`${this.prompt} ${inputText}`)
+      this.clearInput()
 
-    /* If the command line was empty, stop.
-       We don't want to interpret it as a command.
-       It's fine to feed a lint to the terminal */
-    if (inputCommand === '') return
+      /* If the command line was empty, stop.
+         We don't want to interpret it as a command.
+         It's fine to feed a lint to the terminal */
+      if (inputCommand === '') return
 
-    const command = this.commands[inputCommand]
+      const command = this.commands[inputCommand]
 
-    if (command)
-      command(arg)
-    else
-      this.addHistory(`sh: command not found: ${inputCommand}`)
+      if (command)
+        command(arg)
+      else
+        this.addHistory(`sh: command not found: ${inputCommand}`)
 
-    this.scrollToBottom()
-  }
+      this.scrollToBottom()
+    }
 
-  }
-</script>
+    }
+  </script>
+</body>
 </html>
